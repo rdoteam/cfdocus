@@ -26,4 +26,4 @@ To enable the senhasegura application, follow these steps:
 * * *
 
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

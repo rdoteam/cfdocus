@@ -61,7 +61,7 @@ If you encounter the **Internal Server Error** message, wait a few minutes and r
 * * *
 
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
 
 
 

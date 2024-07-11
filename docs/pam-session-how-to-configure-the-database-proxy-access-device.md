@@ -73,4 +73,4 @@ For Oracle device type, the credentials set up is done in a different way. To kn
 [MS SQL Server sessions](/v3-32/docs/pam-session-ms-sql-server)
 [PostgreSQL sessions](/v3-32/docs/pam-session-postgresql-sessions)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

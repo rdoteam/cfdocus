@@ -51,4 +51,4 @@ To view the passwords, go to **MySafe > Passwords.** Locate the **Enable** searc
 
 ***
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -56,4 +56,4 @@ A confirmation message will be displayed by the system, certifying that the devi
 [How to configure a credential in senhasegura to use Database Proxy with Oracle](/v3-32/docs/pam-session-how-to-configure-a-credential-in-senhasegura-to-use-database-proxy-with-oracle)
 [Oracle database configuration](/v3-32/docs/pam-session-oracle-database-configurations)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

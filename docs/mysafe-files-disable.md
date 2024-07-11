@@ -42,4 +42,4 @@ To view the files, go to **MySafe > Files**. Locate the **Enable** search filter
 [How to share a file](/v3-32/docs/mysafe-file-share)
 [How to batch-disable files](/v3-32/docs/mysafe-files-batch-disable)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

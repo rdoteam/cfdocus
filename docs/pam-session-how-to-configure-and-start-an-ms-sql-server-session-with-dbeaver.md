@@ -35,13 +35,13 @@ Database Proxy has a default limit of 2.000 simultaneous connections. This can b
     5.3. **Database/Schema**: enter the name of the database that will be accessed.
     5.4. **Authentication**: choose the option SQL Server Authentication.
     5.5. **Username**: enter the information as the example:
-`<vault_username>[<credential_username>@<device_hostname>{<database_port>}]`
+`<vault_username>[<credential_username>@<device_hostname>]`
 :::(info) (**Info**)
-To use domain credentials When logging into the application, the domain registered in the credential must appear before the credential username, as shown in the example: `<vault_username>[<domain\credential_username>@<device_hostname>{<database_port>}]`.
+To use domain credentials When logging into the application, the domain registered in the credential must appear before the credential username, as shown in the example: `<vault_username>[<domain\credential_username>@<device_hostname>]`.
 To learn how to register domain credentials, access the [Credentials](/v3-32/docs/pam-credentials) document.
 :::
 :::(warning) (**Attention**)
-If you use an MFA for authentication, whether with a normal or domain credential, the token must be inserted at the end, as shown in the example:`<vault_username>[<credential_username>@<device_hostname>{<database_port>}]<tokenMFA>`
+If you use an MFA for authentication, whether with a normal or domain credential, the token must be inserted at the end, as shown in the example:`<vault_username>[<credential_username>@<device_hostname>]<tokenMFA>`
 :::
     5.5. **Password**: enter your password to access the safe.
 6. Click **Finish**.

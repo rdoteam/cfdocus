@@ -104,4 +104,4 @@ This provisioning works for both Domum internal and third parties users.
 Now, senhasegura can offer SSO login for internal users, and the access provider will take care of the authentication.
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

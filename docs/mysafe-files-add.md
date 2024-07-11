@@ -41,4 +41,4 @@ You can also add a file by accessing the drop-down menu on the MySafe homepage, 
 [How to edit a file](/v3-32/docs/mysafe-file-edit)
 [How to share a file](/v3-32/docs/mysafe-file-share)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

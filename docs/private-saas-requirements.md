@@ -36,11 +36,11 @@ The RDS server must run on **Windows Server 2008 R2** or a higher version.
 
 We recommend using **RDS Per User CALs (Client Access Licenses)** to license users or servers that will access the RDS. These licenses are necessary to comply with Microsoft's terms of use.
 
-It’s important to note that senhasegura doesn’t cover the licensing and implementation of the RDS server. Therefore, customers must acquire the appropriate licenses directly from Microsoft and implement them according to [Microsoft Remote Desktop Services guidelines](https://learn.microsoft.com/windows-server/remote/remote-desktop-services/rds-client-access-license){target="_blank"}.
+It’s important to note that senhasegura doesn’t cover the licensing and implementation of the RDS server. Therefore, customers must acquire the appropriate licenses directly from Microsoft and implement them according to [Microsoft Remote Desktop Services guidelines](https://learn.microsoft.com/windows-server/remote/remote-desktop-services/rds-client-access-license).
 
 ### Hardware requirements
 
-Hardware requirements may vary based on specific workloads and features the RDS server requires. Consult [Microsoft Remote Desktop Workloads](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs#workloads){target="_blank"} documentation for detailed information on hardware requirements.
+Hardware requirements may vary based on specific workloads and features the RDS server requires. Consult [Microsoft Remote Desktop Workloads](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs#workloads) documentation for detailed information on hardware requirements.
 
 
 

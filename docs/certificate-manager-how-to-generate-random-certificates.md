@@ -57,4 +57,4 @@ Or
 2. On the main page of the item, all generated random certificates will be listed individually.
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

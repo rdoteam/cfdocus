@@ -141,4 +141,4 @@ If you encounter any issues, you can try the following articles:
 
 [Arbitrator Troubleshooting](/v3-32/docs/arbitrator-troubleshooting)
 
-If you still cannot find your issue, you can send your issue to our [Community](https://community.senhasegura.io/?utm_source=HelpCenter&utm_medium=Article&utm_campaign=ArbitratorInstallation){target="_blank"}.
+If you still cannot find your issue, you can send your issue to our [Community](https://community.senhasegura.io/?utm_source=HelpCenter&utm_medium=Article&utm_campaign=ArbitratorInstallation).

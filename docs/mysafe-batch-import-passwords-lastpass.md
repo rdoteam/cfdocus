@@ -49,4 +49,4 @@ You can also import your passwords from LastPass through the **Passwords** homep
 ### Next:
 [Import process details](/v3-32/docs/mysafe-import-process-details)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

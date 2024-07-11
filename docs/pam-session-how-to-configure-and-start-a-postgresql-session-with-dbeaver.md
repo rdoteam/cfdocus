@@ -35,9 +35,9 @@ Database Proxy has a default limit of 2.000 simultaneous connections. This can b
     5.3. **Database**: enter the name of the database that will be accessed.
     5.4. **Authentication**: choose the option Database Native.
     5.5. **Username**: enter the information as the example:
-`<vault_username>[<credential_username>@<device_hostname>{<database_port>}]` 
+`<vault_username>[<credential_username>@<device_hostname>]` 
 :::(warning) (**Attention**)
-If you use an MFA for authentication, whether with a normal or domain credential, the token must be inserted at the end, as shown in the example:`<vault_username>[<credential_username>@<device_hostname>{<database_port>}]<tokenMFA>`
+If you use an MFA for authentication, whether with a normal or domain credential, the token must be inserted at the end, as shown in the example:`<vault_username>[<credential_username>@<device_hostname>]<tokenMFA>`
 :::
     5.6. **Password**: enter your password to access the safe.
 6. Click **Finish**.

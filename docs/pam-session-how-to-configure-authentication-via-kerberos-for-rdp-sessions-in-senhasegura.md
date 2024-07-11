@@ -33,4 +33,4 @@ After this configuration, it will be possible to start RDP sessions via Web Prox
 
 ---
 
-Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/).

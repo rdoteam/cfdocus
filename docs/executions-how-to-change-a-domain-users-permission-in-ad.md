@@ -42,4 +42,4 @@ By following the steps in this tutorial, permission will be given to **the whole
 4. Click **X** to close the window.
 
 ---
-Do you still have questions? Reach out to the senhasegura community[https://community.senhasegura.io/](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the senhasegura community[https://community.senhasegura.io/](https://community.senhasegura.io/).

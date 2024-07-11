@@ -9,13 +9,13 @@
 In this article, you'll find instructions for deploying senhasegura on **Microsoft Azure** by manually uploading the application image in `VHD` format.
 
 ## Requirements
-To deploy on Azure, you must have the **senhasegura Virtual Appliance image in VHD format**. To download the `VHD` image, access the [Support Portal](https://suporte.senhasegura.com.br/en/support/login){target="_blank"}.
+To deploy on Azure, you must have the **senhasegura Virtual Appliance image in VHD format**. To download the `VHD` image, access the [Support Portal](https://suporte.senhasegura.com.br/en/support/login).
 
 ## Step 1: Create a Disk 
 
 
 1. Log in to **Microsoft Azure**.
-2. Use [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/#overview){target="_blank"} to upload the senhasegura image in `VHD` format to your **Storage account**.
+2. Use [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/#overview) to upload the senhasegura image in `VHD` format to your **Storage account**.
 3. In the **Services** category, select **Disks**.
 4. Click **+Create**.
 5. When creating the **Disk**, fill in the following fields in the **Basics** tab as instructed below:

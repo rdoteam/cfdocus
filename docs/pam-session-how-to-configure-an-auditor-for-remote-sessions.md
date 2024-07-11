@@ -31,4 +31,4 @@ The system displays a confirmation message. Now, this session has an auditor, an
 [Sessions for audit](/v3-32/docs/pam-session-sessions-for-audit)
 [Audited commands](/v3-32/docs/pam-session-audited-commands)
 
-Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/).

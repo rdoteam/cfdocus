@@ -48,4 +48,4 @@ To follow your request status, access the My request report page.
 [My requests](/v3-32/docs/pam-session-requests)
 [Requests](/v3-32/docs/pam-session-requests)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

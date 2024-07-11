@@ -38,4 +38,4 @@ If a user is in more than one vendor's register, the system will place this user
 A pop-up window displays a confirmation message indicating the completion of the process. You can use your application to perform various identity management operations, such as creating, updating, and deleting users. Your IGA provider will synchronize these changes with the application you’ve made.
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

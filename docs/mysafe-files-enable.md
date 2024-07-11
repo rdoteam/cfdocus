@@ -32,4 +32,4 @@ After enabling, the file appears again in the report on the File homepage and th
 [How to share a file](/v3-32/docs/mysafe-file-share)
 [How to edit a file](/v3-32/docs/mysafe-file-edit)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

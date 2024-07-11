@@ -117,5 +117,5 @@ The senhasegura cloud relies on Google Cloud's deletion policy, which is designe
 
 3. Google's backup cycle ensures that deleted data in data center backups expires within six months. Depending on data replication and Google's backup schedule, the backups may be deleted earlier.
 
-For detailed information on Google's deletion pipeline, refer to the [Google Cloud documentation](https://cloud.google.com/docs/security/deletion){target="_blank"}. 
+For detailed information on Google's deletion pipeline, refer to the [Google Cloud documentation](https://cloud.google.com/docs/security/deletion). 
 

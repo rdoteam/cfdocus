@@ -82,4 +82,4 @@ After this configuration, it’s mandatory to configure remote sessions in senha
 
 ---
 
-Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/).

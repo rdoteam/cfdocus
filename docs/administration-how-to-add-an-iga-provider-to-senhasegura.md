@@ -38,4 +38,4 @@ A pop-up window will display a confirmation message indicating the conclusion of
 * [How to manually create an activation token](/v3-32/docs/administration-how-to-manually-create-an-activation-token)
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

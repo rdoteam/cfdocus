@@ -38,4 +38,4 @@ To know more about this resource, access the [Segregation levels](/v3-32/docs/pa
 [How to create a new segregation for credentials](/v3-32/docs/pam-session-create-segregation-credentials)
 [How to create a new segregation for origin](/v3-32/docs/pam-session-create-segregation-origin)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

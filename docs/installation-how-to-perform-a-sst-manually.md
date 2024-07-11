@@ -79,4 +79,4 @@ WSREP: Member 0.0 (vsrv-senhasegura-cert05) synced with group.
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -18,8 +18,8 @@ This process consists of configurations on the database connection and the appli
 
 ### Requirements
 
-* Download the latest version of Instant Client - [Instant Client](https://www.oracle.com/br/database/technologies/instant-client/downloads.html){target=`_blank`}
-* Download the latest version of DBeaver - [Dbeaver](https://dbeaver.io/download/){target=`_blank`}
+* Download the latest version of Instant Client - [Instant Client](https://www.oracle.com/br/database/technologies/instant-client/downloads.html)
+* Download the latest version of DBeaver - [Dbeaver](https://dbeaver.io/download/)
 ---
 
 To get started, extract the Instant Client files to a common directory. For example, the files can be extracted to C:\Users\user1\Downloads\nstantclient_21_10\. Next, create a directory called **oracle_files**, where you can place the **tnsnames.ora** and **sqlnet.ora** files.
@@ -103,4 +103,4 @@ Once this is done, the user can connect to the Oracle database through the senha
 [How to start a Database Proxy Oracle session with DBeaver on Linux](/v3-32/docs/pam-session-how-to-start-a-database-proxy-oracle-session-with-dbeaver-on-linux)
 [Oracle database configuration](/v3-32/docs/pam-session-oracle-database-configurations)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

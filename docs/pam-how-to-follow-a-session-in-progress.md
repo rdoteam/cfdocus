@@ -28,7 +28,7 @@ This action is contingent upon the session's configuration allowing recording. F
 In clustered environments, tracking a remote session might not be possible if the end user logs onto the secondary server while the administrator logs onto the primary server. 
 :::    
 * **Drop Session**: instantaneously terminate the session.
-* **Prevent Purge**: access to prevent the automatic purging {link to purge documentation} of the session's data.
+* **Prevent Purge**: access to prevent the automatic purging  of the session's data.
 * **Configure Auditors**: Selecting this option sends an email notification to the assigned user. This user can then review the session, which can be accessed via **Access Control > Session for Audit**.
 
 ***

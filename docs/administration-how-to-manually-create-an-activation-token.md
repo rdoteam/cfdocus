@@ -64,9 +64,9 @@ Collect information from the provider related to the type of group you intend to
     7.3. **Header Prefix**: enter  ```Bearer ```.
     7.4. **Token Name**: enter a descriptive name.
     7.5. **Grant Type**: select **Client Credentials**
-    7.6. **Access Token URL**: enter  ```{{tokenUrl}} ``` .
-    7.7. **Client ID**: enter  ```{{scim_client_id}} ``` .
-    7.8. **Client Secret**: enter  ```{{scim_client_secret}} ```.
+    7.6. **Access Token URL**: enter  ```} ``` .
+    7.7. **Client ID**: enter  ```} ``` .
+    7.8. **Client Secret**: enter  ```} ```.
     7.9. **Client Authentication:**  select **Send as Basic Auth header**.
 8. Click **Clear cookies**.
 9. Click **Get New Access Token**.
@@ -77,4 +77,4 @@ Collect information from the provider related to the type of group you intend to
 You'll receive a confirmation message with the text **Token added**. You must paste this token into the [authentication screen of the Okta SCIM application](/v3-32/docs/administration-how-to-create-a-scim-application-with-okta).
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

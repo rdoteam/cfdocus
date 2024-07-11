@@ -51,4 +51,4 @@ These two actions can also be performed via the **Request details**, accessed th
 [My session video approvals](/v3-32/docs/pam-session-my-session-video-approvals)
 [Requests](/v3-32/docs/pam-session-requests-video)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -31,4 +31,4 @@ In this article, you’ll learn how to clone or edit an automation.
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community.](https://community.senhasegura.io/){target="_blank"}
+Do you still have questions? Reach out to the [senhasegura Community.](https://community.senhasegura.io/)

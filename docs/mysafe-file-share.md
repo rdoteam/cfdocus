@@ -53,4 +53,4 @@ You can also share a file by accessing the shortcut on the MySafe homepage and c
 [How to download a file](/v3-32/docs/mysafe-file-download)
 [How to add private group](/v3-32/docs/mysafe-private-group-add)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

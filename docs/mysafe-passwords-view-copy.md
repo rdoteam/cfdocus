@@ -43,4 +43,4 @@ You can also copy a password by accessing the shortcut on the **MySafe** home sc
 ## Next
 [How to edit a password](/v3-32/docs/mysafe-passwords-edit)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

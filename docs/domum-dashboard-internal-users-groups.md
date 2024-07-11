@@ -44,4 +44,4 @@ You can find the following in the dashboard:
     * **Year**: number of views that happened in the current year.
     * **Total**: the total number of views.
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

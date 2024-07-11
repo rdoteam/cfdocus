@@ -48,4 +48,4 @@ To set up the network and change the hostname of your senhasegura VM, follow the
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -46,7 +46,7 @@ Once you run the command, enter your user password. You’ll be logged into your
 
 ### Windows users
 
-1. Open the **PuTTY** application. You can download PuTTY [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){target="_blank"}.
+1. Open the **PuTTY** application. You can download PuTTY [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 2. In the **Session** category, fill in the field:
     1. **Host Name (or IP address)**: enter your server IP address.
 3. In the **Connection** > **SSH** > **Tunnels** category, fill in the fields:
@@ -113,4 +113,4 @@ To launch Chrome using a new profile and your SSH tunnel, in a terminal applicat
 The new profile will be created automatically. This way, you can run multiple instances of Chrome at the same time, and you’ll be able to browse the Internet through the SSH tunnel. Type “what is my IP” on Google to verify your server IP address.
 
 ***
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

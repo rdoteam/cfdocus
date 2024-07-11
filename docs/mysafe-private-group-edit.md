@@ -36,4 +36,4 @@ Once you’ve finished, the group is available for item sharing and will be disp
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

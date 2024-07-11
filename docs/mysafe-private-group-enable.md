@@ -32,4 +32,4 @@ Once you’ve finished, the activated private group will be available for item s
 
 
 ****
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

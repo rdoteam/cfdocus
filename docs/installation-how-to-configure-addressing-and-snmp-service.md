@@ -88,4 +88,4 @@ The users configured in iDRAC will be displayed along with their status and resp
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

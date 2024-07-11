@@ -40,7 +40,7 @@ Creates a new encryption key based on the parameters provided in the request bod
 ```
 ## Edit Encryption Key
 ### Endpoint
-`PUT /iso/sctm/encryption/key/{key_id}`
+`PUT /iso/sctm/encryption/key/`
 
 ### Description
 Edits an existing encryption key based on the ID provided in the endpoint.
@@ -68,7 +68,7 @@ Edits an existing encryption key based on the ID provided in the endpoint.
 ```
 ## Disable Encryption Key
 ### Endpoint
-`DELETE /iso/sctm/encryption/key/{key_id}`
+`DELETE /iso/sctm/encryption/key/`
 
 ### Description
 Disables an existing encryption key based on the ID provided in the endpoint.
@@ -117,7 +117,7 @@ Gets a list of all authorized encryption keys.
 
 ## Query Encryption Key Details
 ### Endpoint
-`GET /iso/sctm/encryption/key/{key_id}`
+`GET /iso/sctm/encryption/key/`
 
 ### Description
 Queries the details of an existing encryption key based on the ID provided in the endpoint.

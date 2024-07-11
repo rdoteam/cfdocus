@@ -30,7 +30,7 @@ Database Proxy has a default limit of 2.000 simultaneous connections. This can b
     3.2. **Library**: choose the option **MSOLEBDSQL**.
     3.3. **Hostname/IP**: enter the IP number of the vault to be accessed.
     3.4. **User**: enter the information as the example below:
-`<vault_username>[<credential_username>@<device_hostname>{<database_port>}]`
+`<vault_username>[<credential_username>@<device_hostname>]`
     3.5. **Password**: enter your password to access the safe.
     3.6. **Port**: enter the default port number of the database (1433). If you use a port number other than the default, enter the number used.
     4. Click **Save**.

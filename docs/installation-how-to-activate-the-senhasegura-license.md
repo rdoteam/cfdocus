@@ -60,4 +60,4 @@ Once you’ve successfully followed these steps, your senhasegura license will b
 
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

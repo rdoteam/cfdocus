@@ -41,4 +41,4 @@ You can find the following in the Monitoring center:
 If there is a suspicious active session, it may be dropped. On the list **Active sessions** find the session you want and click the **on/off** icon. In the confirmation box click **Yes**. The session will be dropped and the user will be logged out.
 :::
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

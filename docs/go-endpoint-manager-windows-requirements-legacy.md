@@ -73,5 +73,5 @@ For Windows Server 2008 R2 SP1 and Windows 7 environments, you must configure th
 :::
 
 :::(Warning) (Caution)
-If you need an unsupported version, request support for another version on the [senhasegura suggestions](https://senhasegura.com/suggestions/){target="_blank"} website.
+If you need an unsupported version, request support for another version on the [senhasegura suggestions](https://senhasegura.com/suggestions/) website.
 :::

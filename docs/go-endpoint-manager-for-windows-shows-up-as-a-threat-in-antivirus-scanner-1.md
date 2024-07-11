@@ -30,4 +30,4 @@ To solve the problem, follow these steps:
 The antivirus will no longer inspect the directories and files you’ve added. The Go Endpoint Manager for Windows agent can now perform all its features without any interference that could compromise its performance and integrity.
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

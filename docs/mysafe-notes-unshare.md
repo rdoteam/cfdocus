@@ -42,4 +42,4 @@ You can also unshare the note through the shortcut on the **MySafe** homepage by
 [How to share a note](/v3-32/docs/mysafe-notes-share)
 [How to view a note](/v3-32/docs/mysafe-notes-view)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -93,4 +93,4 @@ If no command is registered, the senhasegura platform will display only the begi
 [My execution requests](/v3-32/docs/pam-session-my-execution-request)
 [Event Log](/v3-32/docs/pam-session-event-log)
 
-Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/).

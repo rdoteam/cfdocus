@@ -70,4 +70,4 @@ N/A
 * [How to add the SAML provider in senhasegura](/v3-32/docs/administration-how-to-add-the-saml-provider-to-senhasegura)
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

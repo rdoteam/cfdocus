@@ -71,4 +71,4 @@ Controlling which instances are running and deactivated in the cluster is crucia
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

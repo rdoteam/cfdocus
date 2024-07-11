@@ -30,4 +30,4 @@ The system displays a message confirming the registration of the reason. The rea
 ### Next:
 [How to request access](/v3-32/docs/pam-session-how-to-request-access)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

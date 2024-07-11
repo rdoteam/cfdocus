@@ -31,13 +31,13 @@ If the pop-up does not open automatically, in the **Object Explorer** left menu,
 2.2. **Server name**: IP number of the vault that will be accessed.
 2.3. **Authentication**: choose the SQL Server Authentication option
 2.4. **Logon**: enter the information as the example below:
-`<vault_username>[<credential_username>@<device_hostname>{<database_port>}]`
+`<vault_username>[<credential_username>@<device_hostname>]`
 :::(info) (**Info**)
-To use domain credentials when logging into the application, the domain registered in the credential must appear before the credential username, as shown in the example: `<vault_username>[<domain\credential_username>@<device_hostname>{<database_port>}]`.
+To use domain credentials when logging into the application, the domain registered in the credential must appear before the credential username, as shown in the example: `<vault_username>[<domain\credential_username>@<device_hostname>]`.
 To learn how to register domain credentials, access the [Credentials](/v3-32/docs/pam-credentials) document.
 :::
 :::(warning) (**Attention**)
-If you use an MFA for authentication, whether with a normal or domain credential, the token must be inserted at the end, as shown in the example:`<vault_username>[<credential_username>@<device_hostname>{<database_port>}]<tokenMFA>`
+If you use an MFA for authentication, whether with a normal or domain credential, the token must be inserted at the end, as shown in the example:`<vault_username>[<credential_username>@<device_hostname>]<tokenMFA>`
 :::
 
 2.5. **Password**: enter your password to access the safe.

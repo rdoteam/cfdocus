@@ -35,4 +35,4 @@ When file transfer logs are active, SFTP transfers won't work due to technologic
 [File triggers transfer](/v3-32/docs/pam-session-file-transfer-triggers)
 [Transferred files](/v3-32/docs/pam-session-transferred-files)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

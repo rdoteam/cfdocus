@@ -51,4 +51,4 @@ My requests
 [How to approve, disapprove, or revoke an access request](/v3-32/docs/pam-session-how-to-approve-disapprove-or-revoke-an-access-request)
 [Requests](/v3-32/docs/pam-session-requests)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

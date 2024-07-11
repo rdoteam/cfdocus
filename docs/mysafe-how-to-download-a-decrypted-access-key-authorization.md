@@ -38,4 +38,4 @@ You can open this type of file in text editor apps, such as Notepad, or Microsof
 [How to clone an access key authorization](/v3-32/docs/mysafe-how-to-clone-an-access-key-authorization)
 [How to revoke an access key authorization](/v3-32/docs/mysafe-how-to-revoke-an-access-key-authorization)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

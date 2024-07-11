@@ -57,4 +57,4 @@ It’s also possible to share a note through the shortcut on the **MySafe** home
 [How to view a note](/v3-32/docs/mysafe-notes-view)
 [How to add private group](/v3-32/docs/mysafe-private-group-add)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

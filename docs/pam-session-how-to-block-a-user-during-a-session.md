@@ -40,4 +40,4 @@ The interactivity can be released in the Live Stream window during the session o
 [User with session block](/v3-32/docs/pam-session-users-with-session-block)
 [How to unblock a user](/v3-32/docs/pam-session-how-to-unblock-a-user)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

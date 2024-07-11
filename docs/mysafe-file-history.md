@@ -30,4 +30,4 @@ The most recent file version appears on the first line of the report highlighted
 [How to download a file](/v3-32/docs/mysafe-file-download)
 [How to share a file](/v3-32/docs/mysafe-file-share)
 
- Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+ Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

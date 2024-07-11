@@ -45,4 +45,4 @@ By default, when a user is registered in more than one group with different acce
 [System parameters - Access control](/v3-32/docs/pam-session-system-parameters-access-control)
 
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

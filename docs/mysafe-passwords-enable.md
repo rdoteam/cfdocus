@@ -33,4 +33,4 @@ The confirmation notice "Password activated successfully" will display. Once ena
 [How to share a password](/v3-32/docs/mysafe-passwords-share)
 [How to edit a password](/v3-32/docs/mysafe-passwords-edit)
 
- Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+ Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -30,4 +30,4 @@ In this article, you will learn how to authorize or revoke a user.
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/)

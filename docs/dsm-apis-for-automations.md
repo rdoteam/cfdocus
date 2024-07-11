@@ -103,7 +103,7 @@ Retrieves the details of a specific automation based on the ID provided in the e
 
 ### Endpoint
 
-`GET /iso/sctm/automation/{id}`
+`GET /iso/sctm/automation/`
 
 ### Details answer:
 
@@ -137,7 +137,7 @@ Retrieves the details of a specific automation based on the ID provided in the e
 
 Deletes the automation with the ID provided on the endpoint.
 
-`DELETE /iso/sctm/automation/{id}`
+`DELETE /iso/sctm/automation/`
 
 Deletion response:
 
@@ -160,7 +160,7 @@ Updates the automation with the ID provided on the endpoint based on the paramet
 
 ### Endpoint
 
-`PUT /iso/sctm/automation/{id}`
+`PUT /iso/sctm/automation/`
 
 ### Update request body:
 ```json

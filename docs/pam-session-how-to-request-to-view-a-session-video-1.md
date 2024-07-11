@@ -34,4 +34,4 @@ The user **can’t** approve the request itself.
 [My session video requests](/v3-32/docs/pam-session-my-session-video-requests)
 [Requests](/v3-32/docs/pam-session-requests-video)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

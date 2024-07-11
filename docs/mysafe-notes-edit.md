@@ -35,4 +35,4 @@ It’s also possible to edit a note in the shortcut on the **MySafe** homepage b
 [How to batch-share notes](/v3-32/docs/mysafe-notes-batch-share)
 [How to view a note](/v3-32/docs/mysafe-notes-view)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

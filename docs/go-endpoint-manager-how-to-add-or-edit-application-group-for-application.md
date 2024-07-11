@@ -34,4 +34,4 @@ When typing the name of the new group, if the application group doesn’t exist 
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community.](https://community.senhasegura.io/){target="_blank"}
+Do you still have questions? Reach out to the [senhasegura Community.](https://community.senhasegura.io/)

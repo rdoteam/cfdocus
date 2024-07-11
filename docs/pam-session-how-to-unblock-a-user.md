@@ -28,4 +28,4 @@ To find the registers from the previously unblocked users, go to the **Status** 
 ## Next:
 [How to block a user during a session](/v3-32/docs/pam-session-how-to-block-a-user-during-a-session)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

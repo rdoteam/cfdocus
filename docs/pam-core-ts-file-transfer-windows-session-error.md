@@ -48,4 +48,4 @@ If your computer is already using the letter G for another disk, it’ll give th
     2. **RDP drive letter***: Select **G:** or the letter that represents the remote disc.
 
 ***
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

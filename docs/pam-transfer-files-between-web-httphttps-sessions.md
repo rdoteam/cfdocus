@@ -35,4 +35,4 @@ This article will guide you through a step-by-step on how to transfer files betw
 The file will be available in the folder for **2 (two) days**. At the end of this period, it will be automatically erased.
 :::
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

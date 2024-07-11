@@ -9,7 +9,7 @@
 This article contains detailed information about the **senhasegura** mobile app’s initial screens where you can connect the app with senhasegura.
 
 :::(Info) (Info)
-Download the [**senhasegura** mobile app on Google Play Store](https://play.google.com/store/apps/details?id=com.senhasegura&pli=1){target=`_blank`}.
+Download the [**senhasegura** mobile app on Google Play Store](https://play.google.com/store/apps/details?id=com.senhasegura&pli=1).
 :::
 
 ## Scan QR code screen

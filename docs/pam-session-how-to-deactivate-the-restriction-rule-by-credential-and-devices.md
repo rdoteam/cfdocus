@@ -61,4 +61,4 @@ When the standard rule is modified, the **Force access rule by device domain** f
 ## Next:
 [System parameters - Access control](/v3-32/docs/pam-session-system-parameters-access-control)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

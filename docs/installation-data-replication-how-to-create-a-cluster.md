@@ -79,4 +79,4 @@ All cluster members will share the database information from the primary member.
 For additional information about the cluster architecture, refer to the article on [Cluster Architecture](/v3-32/docs/installation-architecture-high-availability-and-disaster-recovery).
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

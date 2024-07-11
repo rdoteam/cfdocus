@@ -83,5 +83,5 @@ The **GO Endpoint Manager for Windows** is designed for Windows Server and 64-bi
 | Windows  | 8.1 (64-bit) |
 
 :::(Warning) (Caution)
-If you need an unsupported version, request support for another version on the [senhasegura suggestions](https://senhasegura.com/suggestions/){target="_blank"} website.
+If you need an unsupported version, request support for another version on the [senhasegura suggestions](https://senhasegura.com/suggestions/) website.
 :::

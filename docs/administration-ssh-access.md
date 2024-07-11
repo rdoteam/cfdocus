@@ -19,7 +19,7 @@ In this article, you’ll learn step-by-step how to access an SSH admin session 
 We’ll use the SSH command via the command line as an example. To do this follow these instructions.
 
 1. Type this line to enter the vault:
-    1. ```ssh mt4adm@{hostname} -p 59022```
+    1. ```ssh mt4adm@ -p 59022```
     2. Press **Enter**.
 2. At the **warning**, type:
     1. ```yes```
@@ -37,4 +37,4 @@ We’ll use the SSH command via the command line as an example. To do this follo
 
 ***
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

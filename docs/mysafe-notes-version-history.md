@@ -32,4 +32,4 @@ The most recent version of the note appears on the first line of the report high
 [How to view a note](/v3-32/docs/mysafe-notes-view)
 [How to share a note](/v3-32/docs/mysafe-notes-share)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

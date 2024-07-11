@@ -29,7 +29,7 @@ The architecture employs various layers of replication to ensure data accessibil
 
 | Layer                        | Description                                                                                                  |
 |------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Native database replication** | The [MariaDB Galera Cluster](https://mariadb.com/kb/en/what-is-mariadb-galera-cluster/){target=`_blank`} is used for replicating databases, providing support for high-latency networks (up to 30ms latency). |
+| **Native database replication** | The [MariaDB Galera Cluster](https://mariadb.com/kb/en/what-is-mariadb-galera-cluster/) is used for replicating databases, providing support for high-latency networks (up to 30ms latency). |
 | **File system replication using Rsync** | All senhasegura instances synchronize their files with other cluster members.                        |
 | **Kernel layer replication***    | The PAM Crypto Appliance deployment model includes a Distributed Replicated Block Device (DRBD) for kernel layer replication.    |
 

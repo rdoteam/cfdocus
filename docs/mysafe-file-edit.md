@@ -33,4 +33,4 @@ You can also edit a file by accessing the shortcut on the **MySafe** homepage an
 [How to share a file](/v3-32/docs/mysafe-file-share)
 [How to batch-share files](/v3-32/docs/mysafe-files-batch-share)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

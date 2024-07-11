@@ -22,7 +22,7 @@ In this article, you'll find a tutorial to create a SCIM application in the user
 * Postman tool or equivalent for [manual access token generation.](/v3-32/docs/domum-how-to-manually-create-an-activation-token)
 * Enable communication between the senhasegura and Okta platforms.
 * A valid account with administrator permission in Okta.
-* A group with users already [created in Okta](https://help.okta.com/asa/en-us/Content/Topics/Adv_Server_Access/docs/setup/create-a-group.htm#:~:text=Open%20the%20Advanced%20Server%20Access%20dashboard.%20Click%20Groups.,the%20group.%20See%20Team%20roles.%20Click%20Create%20Group.){target="_blank"}.
+* A group with users already [created in Okta](https://help.okta.com/asa/en-us/Content/Topics/Adv_Server_Access/docs/setup/create-a-group.htm#:~:text=Open%20the%20Advanced%20Server%20Access%20dashboard.%20Click%20Groups.,the%20group.%20See%20Team%20roles.%20Click%20Create%20Group.).
 * When registering a user in Okta, ensure their unique identifier is set as their email address.
 * The Okta registered users shouldn’t have more than one email address.
 
@@ -146,7 +146,7 @@ In this article, you'll find a tutorial to create a SCIM application in the user
 5. Map the attributes in the right column with the following expressions in the left column:
     5.1. Enter ```user.displayName``` for **NameFormatted**. 
     5.2. Enter ```"test-CustomCode"``` for **customCode**.
-    5.3. Enter ```{"customCodes-test-1","customCodes-test-2"}``` for **customCodes**. 
+    5.3. Enter `````` for **customCodes**. 
     5.4. Enter ```"1"``` for **thirdPartyVendor.** 
 6. Click **Save Mappings.**
 7. Click **Apply Updates now.**

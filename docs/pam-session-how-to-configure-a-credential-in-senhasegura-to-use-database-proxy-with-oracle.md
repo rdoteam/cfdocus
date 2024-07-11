@@ -63,4 +63,4 @@ A confirmation message will be displayed by the system, certifying that the cred
 [How to create a user wallet](/v3-32/docs/pam-session-how-to-create-a-user-wallet)
 [Oracle database configuration](/v3-32/docs/pam-session-oracle-database-configurations)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

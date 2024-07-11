@@ -93,4 +93,4 @@ After saving, a confirmation notice will be displayed. Now, your parameters for 
 [Segregated parameters](/v3-32/docs/pam-session-segregated-parameters)
 [How to create a new segregation for device](/v3-32/docs/pam-session-create-segregation-device)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

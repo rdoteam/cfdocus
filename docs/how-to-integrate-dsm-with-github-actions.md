@@ -52,9 +52,9 @@ jobs:
 
       - name: Run DSM CLI as Running Belt
         env:
-          APPLICATION: ${{ secrets.APPLICATION }}
-          SYSTEM: ${{ secrets.SYSTEM }}
-          ENVIRONMENT: ${{ secrets.ENVIRONMENT }}
+          APPLICATION: $}
+          SYSTEM: $}
+          ENVIRONMENT: $}
         run: |
           dsm runb \
             --app-name $APPLICATION \

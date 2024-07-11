@@ -10,7 +10,7 @@ In this article, you’ll find the first steps to set up the **Crypto Appliance*
 
 ::: (Warning) (Caution) 
 
-To perform the steps below, you’ll need the unique credentials for your **Crypto Appliance**, which you should have received after purchase. If you don't have them, please request them through our [Support Portal](https://suporte.senhasegura.com.br/en/support/login){target=`_blank`}.
+To perform the steps below, you’ll need the unique credentials for your **Crypto Appliance**, which you should have received after purchase. If you don't have them, please request them through our [Support Portal](https://suporte.senhasegura.com.br/en/support/login).
 :::
 ## Requirements
 
@@ -96,7 +96,7 @@ To perform the steps below, you’ll need the unique credentials for your **Cryp
 After configuring the iDRAC IP address, change the default username and password.
 :::
 
-For more information on setting up iDRAC9 with Lifecycle Controller, consult the [Dell documentation](https://www.dell.com/support/kbdoc/en-us/000177212/dell-poweredge-how-to-configure-the-idrac9-and-the-lifecycle-controller-network-ip?lwp=rt){target=`_blank`}.
+For more information on setting up iDRAC9 with Lifecycle Controller, consult the [Dell documentation](https://www.dell.com/support/kbdoc/en-us/000177212/dell-poweredge-how-to-configure-the-idrac9-and-the-lifecycle-controller-network-ip?lwp=rt).
 
 ## Step 3: Configure the device IP address
 
@@ -145,4 +145,4 @@ sudo orbit shutdown --reboot
 ```
 
 * * *
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

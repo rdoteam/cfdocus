@@ -49,4 +49,4 @@ The approved command on the request can **be used only once**. Each time that th
 ## Next:
 [My execution requests](/v3-32/docs/pam-session-my-execution-request)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

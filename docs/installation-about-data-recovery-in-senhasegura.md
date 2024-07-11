@@ -6,7 +6,7 @@
 ## description:  
 ## contentType: Markdown 
 ## Metadata_End
-senhasegura uses [MariaDB Galera Cluster](https://mariadb.com/kb/en/what-is-mariadb-galera-cluster/){target=`_blank`} as a high-availability cluster technology to ensure the integrity and continuity of data.
+senhasegura uses [MariaDB Galera Cluster](https://mariadb.com/kb/en/what-is-mariadb-galera-cluster/) as a high-availability cluster technology to ensure the integrity and continuity of data.
 
 ## Incremental State Transfers 
 In situations of temporary interruption in replication between cluster members, the default configuration allows for a tolerance of approximately 3 hours. During this period, the cluster automatically performs Incremental State Transfers (IST) for resynchronization, sending only the affected incremental data. 

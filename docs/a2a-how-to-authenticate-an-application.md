@@ -110,7 +110,7 @@ The following table presents a list with the mandatory and optional authenticati
 
 | Field | Description |
 | --- | --- |
-| **oauth_signature*** | A string of unique characters that act as a signature for a request. For more information, go to the documentation for [creating the signature](https://datatracker.ietf.org/doc/html/rfc5849#section-3.4){target=`_blank`}. |
+| **oauth_signature*** | A string of unique characters that act as a signature for a request. For more information, go to the documentation for [creating the signature](https://datatracker.ietf.org/doc/html/rfc5849#section-3.4). |
 | **oauth_version*** | Make sure to set the version value to 1.0. |
 | **oauth_signature_method*** | The name of the signature method used by the client to sign the request. Set the signature method to **HMAC-SHA1**. |
 | **oauth_consumer_key*** | The **consumer_key** value previously obtained. |
@@ -123,7 +123,7 @@ The following table presents a list with the mandatory and optional authenticati
     
 :::(Info) (Info)
 The parameters marked with an asterisk are mandatory.
-For more information on the parameters above, access T[he OAuth v1.0 Protocol RFC](https://datatracker.ietf.org/doc/html/rfc5849#section-3.4){target=`_blank`}.
+For more information on the parameters above, access T[he OAuth v1.0 Protocol RFC](https://datatracker.ietf.org/doc/html/rfc5849#section-3.4).
 :::
 
 ##     OAuth v2.0 authentication

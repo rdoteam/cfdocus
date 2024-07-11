@@ -29,4 +29,4 @@ The system displays a message confirming the registration of the reason.
 ## Next:
 [Access reasons home screen](/v3-32/docs/domum-access-reasons-home-screen)
 
-Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/).

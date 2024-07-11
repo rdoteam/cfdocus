@@ -18,9 +18,9 @@ This process consists of configurations on the database connection and the appli
 
 ### Requirements
 
-* Download the latest version of Instant Client - [Instant Client](https://www.oracle.com/br/database/technologies/instant-client/downloads.html){target=`_blank`}
-* Download the latest version of Oracle SQLcl - [Oracle sqlcl](https://www.oracle.com/br/database/sqldeveloper/technologies/sqlcl/){target=`_blank`}
-* Download the latest version of DBeaver - [Dbeaver](https://dbeaver.io/download/){target=`_blank`}
+* Download the latest version of Instant Client - [Instant Client](https://www.oracle.com/br/database/technologies/instant-client/downloads.html)
+* Download the latest version of Oracle SQLcl - [Oracle sqlcl](https://www.oracle.com/br/database/sqldeveloper/technologies/sqlcl/)
+* Download the latest version of DBeaver - [Dbeaver](https://dbeaver.io/download/)
 
 ---
 ## Create tnsnames.ora and sqlnet.ora files
@@ -94,4 +94,4 @@ Once this is done, the user can connect to the Oracle database through the senha
 [How to start a Database Proxy Oracle session with DBeaver on Windows](/v3-32/docs/pam-session-how-to-start-a-database-proxy-oracle-session-with-dbeaver-on-windows)
 [Oracle database configuration](/v3-32/docs/pam-session-oracle-database-configurations)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

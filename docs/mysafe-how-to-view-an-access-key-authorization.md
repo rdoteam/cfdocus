@@ -28,4 +28,4 @@ This tutorial provides a step-by-step guide on how to view your access key autho
 [How to change an access key authorization](/v3-32/docs/mysafe-api-key-change)
 [How to clone an access key authorization](/v3-32/docs/mysafe-api-key-clone)
 
-Do you still have questions? Reach out to the  [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the  [senhasegura Community](https://community.senhasegura.io/).

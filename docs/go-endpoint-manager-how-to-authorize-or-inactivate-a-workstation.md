@@ -29,4 +29,4 @@ In this article, you learn how to authorize or disable a workstation.
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community.](https://community.senhasegura.io/){target="_blank"}
+Do you still have questions? Reach out to the [senhasegura Community.](https://community.senhasegura.io/)

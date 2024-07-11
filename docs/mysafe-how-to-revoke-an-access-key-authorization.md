@@ -32,4 +32,4 @@ Once revoked, the authorization won’t be displayed in the report anymore and w
 
 ***
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

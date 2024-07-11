@@ -42,7 +42,7 @@ To synchronize your AD users with senhasegura:
         - Insert the DN to be used to search for the users.
         - Add an AD username attribute to be used from your AD, for example: “sAMAccountName”.
         - Select an AD name attribute.
-        - Give a Query Filter. You can access [Creating a Query Filter | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/ad/creating-a-query-filter){target="_blank"} to help create your own queries. For example, `(&(objectClass=user)(sAMAccountName=*)(memberOf=CN=senhasegura,DC=mt4,DC=com,DC=br))`
+        - Give a Query Filter. You can access [Creating a Query Filter | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/ad/creating-a-query-filter) to help create your own queries. For example, `(&(objectClass=user)(sAMAccountName=*)(memberOf=CN=senhasegura,DC=mt4,DC=com,DC=br))`
 
     :::(warning) (Query words limit)
     You can type up to 2,048 characters in the **Query Filter** field.

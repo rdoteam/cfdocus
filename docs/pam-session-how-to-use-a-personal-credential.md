@@ -63,4 +63,4 @@ The use of personal credentials doesn’t prevent the use of Access Groups with 
 [How to configure a remote session (proxy)](/v3-32/docs/pam-session-configure-remote-session-proxy)
 [Segregated parameters](/v3-32/docs/pam-session-segregated-parameters)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

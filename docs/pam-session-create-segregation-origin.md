@@ -92,4 +92,4 @@ After saving, a confirmation notice will be displayed. Now, your parameters for 
 [Segregation levels](/v3-32/docs/pam-session-segregation-level)
 [Segregated parameters](/v3-32/docs/pam-session-segregated-parameters)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

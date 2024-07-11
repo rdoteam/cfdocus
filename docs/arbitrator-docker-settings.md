@@ -50,7 +50,7 @@ Docker host needs to have access to `registry.senhasegura.io`.
 
 #### Using docker-compose (recommended)
 
-You need to have [docker-compose](https://docs.docker.com/compose/install/){target="_blank"} installed in your Docker host.
+You need to have [docker-compose](https://docs.docker.com/compose/install/) installed in your Docker host.
 
 The `docker-compose.yml` file contains everything necessary to run both the Galera cluster and Elasticsearch containers.
 
@@ -154,4 +154,4 @@ If you encounter any issues, you can try the following articles:
 
 [Arbitrator Troubleshooting](/v3-32/docs/arbitrator-troubleshooting)
 
-If you still cannot find your issue, you can send your issue to our [Community](https://community.senhasegura.io/?utm_source=HelpCenter&utm_medium=Article&utm_campaign=ArbitratorInstallation){target="_blank"}.
+If you still cannot find your issue, you can send your issue to our [Community](https://community.senhasegura.io/?utm_source=HelpCenter&utm_medium=Article&utm_campaign=ArbitratorInstallation).

@@ -36,4 +36,4 @@ A pop-up window with the message **"API authorization successfully updated”** 
 [How to download a decrypt API key authorization](/v3-32/docs/mysafe-how-to-download-a-decrypted-access-key-authorization)
 [How to clone an API key authorization](/v3-32/docs/mysafe-how-to-clone-an-access-key-authorization)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

@@ -14,7 +14,7 @@ This article provides instructions on how to download senhasegura’s Virtual Ap
 
 To download a Virtual Appliance, follow these steps:
 
-1. Log in to the [Support Portal](https://suporte.senhasegura.com.br/en/support/login){target="_blank"} using the credentials provided by senhasegura’s team.
+1. Log in to the [Support Portal](https://suporte.senhasegura.com.br/en/support/login) using the credentials provided by senhasegura’s team.
 2. Go to **Solutions > senhasegura Artifacts > senhasegura > Virtual Appliances**.
 3. On this page, you'll find a list of available Virtual Appliances.
 4. Select the Virtual Appliance that best suits your system's requirements.

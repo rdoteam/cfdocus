@@ -96,4 +96,4 @@ User interaction is blocked until the automation finishes running.
 
 * * *
 
-Do you still have questions? Reach out to the [senhasegura Community.](https://community.senhasegura.io/){target="_blank"}
+Do you still have questions? Reach out to the [senhasegura Community.](https://community.senhasegura.io/)

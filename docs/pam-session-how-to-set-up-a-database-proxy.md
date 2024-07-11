@@ -72,4 +72,4 @@ After all these steps, the database setup is finished.
 [How to configure the Database Proxy access device](/v3-32/docs/pam-session-how-to-configure-the-database-proxy-access-device)
 [Database Proxy](/v3-32/docs/pam-session-database-proxy)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

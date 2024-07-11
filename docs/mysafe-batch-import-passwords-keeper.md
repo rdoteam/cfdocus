@@ -50,4 +50,4 @@ If not successful, the **Status** field will change to **Error processing**, and
 ### Next:
 [Import process details](/v3-32/docs/mysafe-import-process-details)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

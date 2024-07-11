@@ -45,4 +45,4 @@ To view the notes, go to **MySafe > Notes**. Locate the **Enable** search filter
 [How to batch-disable notes](/v3-32/docs/mysafe-notes-batch-disable)
 [How to share a note](/v3-32/docs/mysafe-notes-share)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

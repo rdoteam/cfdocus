@@ -39,4 +39,4 @@ The system displays a confirmation message. All sessions started after this conf
 [How to configure a remote session (proxy)](/v3-32/docs/pam-session-configure-remote-session-proxy)
 [Session text](/v3-32/docs/pam-session-session-text)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

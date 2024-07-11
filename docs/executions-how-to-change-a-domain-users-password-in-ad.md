@@ -48,4 +48,4 @@ By following the steps in this tutorial, permission will only be given to **one 
 4. Click **X** to close the window.
 
 ---
-Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura community](https://community.senhasegura.io/).

@@ -27,7 +27,7 @@ We use the following abbreviations in the tables in this article:
 ## Firewall rules
 
 :::(error) (**Important**)
-Currently, senhasegura doesn’t support the use of any other type of proxy other than the [APT proxy](https://community.senhasegura.io/t/how-to-configure-a-proxy-to-update-senhasegura/361){target=`_blank`} for system update packages, and the [Fajita proxy](https://community.senhasegura.io/t/how-to-add-a-proxy-by-command-line/607){target=`_blank`}. Any other uses of senhasegura through some other proxy are not supported.
+Currently, senhasegura doesn’t support the use of any other type of proxy other than the [APT proxy](https://community.senhasegura.io/t/how-to-configure-a-proxy-to-update-senhasegura/361) for system update packages, and the [Fajita proxy](https://community.senhasegura.io/t/how-to-add-a-proxy-by-command-line/607). Any other uses of senhasegura through some other proxy are not supported.
 :::
 
 ### Communication between senhasegura and management systems

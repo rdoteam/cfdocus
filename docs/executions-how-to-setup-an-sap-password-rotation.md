@@ -49,7 +49,7 @@ Fill in the following data:
 ### On the Information tab:
 
 1. In **Devices**, add the IP address of the SAP server. (For example: `10.66.32.40`)
-2. In **Additional Information**, add: `{"sysnr":"00","client":"001"}`.
+2. In **Additional Information**, add: ``.
 
 ### On the **Executions settings** tab:
 

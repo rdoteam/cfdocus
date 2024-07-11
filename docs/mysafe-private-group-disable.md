@@ -34,4 +34,4 @@ After you're done, you won't be able to share anything with the disabled private
 [How to edit a private group](/v3-32/docs/mysafe-private-group-edit)
 [Private groups](/v3-32/docs/mysafe-private-group)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

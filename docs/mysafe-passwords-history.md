@@ -34,4 +34,4 @@ The most recent password version appears on the first line of the report highlig
 [How to view or copy a password](/v3-32/docs/mysafe-passwords-view-copy)
 [How to share a password](/v3-32/docs/mysafe-passwords-share)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

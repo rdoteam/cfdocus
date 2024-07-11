@@ -36,4 +36,4 @@ After enabling it, the note will once again appear in the report on the **Note**
 [How to batch-disable notes](/v3-32/docs/mysafe-notes-batch-disable)
 [How to edit a note](/v3-32/docs/mysafe-notes-edit)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target="_blank"}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

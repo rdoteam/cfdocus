@@ -43,4 +43,4 @@ The first field `TYPE_YOUR_PASSWORD` is a password created when generating the c
 [How to start a Database Proxy Oracle session with DBeaver on Windows](/v3-32/docs/pam-session-how-to-start-a-database-proxy-oracle-session-with-dbeaver-on-windows)
 [Oracle database configuration](/v3-32/docs/pam-session-oracle-database-configurations)
 
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/){target=`_blank`}.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
