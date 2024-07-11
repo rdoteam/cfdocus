@@ -17,7 +17,6 @@ You need to register a provider to perform the integration:
 
 1. Go to **Settings ➔ Authentication ➔ Identity Management (IGA) ➔ Providers**
 2. Click on the `⁝` icon, select the option + New
-![image.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/image-NIES60G7.png){height="" width=""}
 
 
 3. Under Configuration, add the following information:
@@ -27,7 +26,6 @@ You need to register a provider to perform the integration:
 - Description
 - tag
 4. Under Authentication, add the following information:
-![image.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/image-2H8M95BU.png){height="" width=""}
 
 
 - authentication method

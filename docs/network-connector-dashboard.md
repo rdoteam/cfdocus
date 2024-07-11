@@ -20,7 +20,6 @@ With the Dashboard it is possible to visualize information about the status of t
     
 Once the command is executed, the following screen will be displayed.
 
-![image \(1\).png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/image%20%281%29.png){height="" width=""}
 
 | Item | Description |
 | --- | --- |
@@ -48,4 +47,3 @@ To access the logs:
      ```
 3. Press the "2" key on the keyboard
 
-![image.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/image-MKQ7QP64.png){height="" width=""}

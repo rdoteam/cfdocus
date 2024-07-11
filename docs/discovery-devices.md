@@ -9,12 +9,10 @@
 1. Go to **Discovery ➔ Settings ➔ Discovery;**
 2. Click on the icon `⁝`, and choose the option **+ New;**
 
-![chrome_wkKUkjUNku.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/chrome_wkKUkjUNku.png){height="" width=""}
 
 3. Select **Device**;
 4. Add the information:
 
-![devices1.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devices1%282%29.png){height="" width=""}
 
 - **Name:** name that will identify the search.
 - **Initial IP:** IP of the initial polling range.
@@ -51,7 +49,6 @@ Higher-priority credential pools take precedence over lower-priority credential 
 
 ## Searches
 
-![devicesseacher.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesseacher%281%29.png){height="" width=""}
 
 - **Search for credentials:** if this option is enabled, credentials will be included in the discovery process.
 - **Search for device groups:** if this option is enabled, device groups will be included in the discovery process.
@@ -80,7 +77,6 @@ The FQDN will be the unique device identifier if this option is enabled.
 :::
 
 ## Plugins
-![devicesplugin.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesplugin.png){height="" width=""}
 
 Click on the icon + e fill in the plug-in field.
 
@@ -91,7 +87,6 @@ To search for Windows service accounts, you will need to select a Windows plugin
 :::
 
 ## Execution
-![devicesexecution.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesexecution.png){height="" width=""}
 
 - **Keep scan active after import?:** credential verification that will remain active after credential import or not.
 - **Days allowed for execution**: days that will be allowed to perform the execution.
@@ -105,7 +100,6 @@ It is not recommended to add an interval of fewer than 8 hours.
 :::
 
 ## Import
-![devicesimport.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesimport%282%29.png){height="" width=""}
 
 
 - **Enable automatic importation of devices and credentials?:** indicates whether the automatic importation of credentials and devices is enabled or not.
@@ -117,7 +111,6 @@ It is not recommended to add an interval of fewer than 8 hours.
 
 If you click on Searches, and the option "Search for certificates" is checked, you will have one more tab:
 
-![devicescertificate.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicescertificate.png){height="" width=""}
 :::(Info) (Info)
 Valid extensions for performing a certificate discovery are:
 .crt, .cer, .ca-bundle, .p7b, .p7c, .p7s, .pem, .p12, .pfx and .pem
@@ -216,7 +209,6 @@ When selecting the **NetScaler** option, these fields will be displayed:
 
 If you click on Searches, and the option "Find DevOps artifacts" is checked, you will have one more tab:
 
-![devicesdevops.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesdevops.png){height="" width=""}
 
 **Ansible settings**
 

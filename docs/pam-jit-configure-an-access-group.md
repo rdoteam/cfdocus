@@ -14,7 +14,6 @@ To create an access group follow the instructions:
 1. Access **PAM Core ➔ Settings ➔ Access ➔ Group access**
 2. Click the `⁝` icon**,** select the option **+ New**
 3. In **Settings**, define whether users can start sessions with an approval workflow.
-![JIT1.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/JIT1.png){height="" width=""}
 
 It is possible to set:
 
@@ -28,7 +27,6 @@ It is possible to set:
     - **Mandatory to specify the governance code when justifying?:** whether it is necessary to inform the governance code of the company's ITSM tool
 
 4. In **Criteria**, define the criteria for displaying devices and credentials to group users.
-![jit2.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/jit2.png){height="" width=""}
     
 
 It is possible to set: 
@@ -45,7 +43,6 @@ It is possible to set:
 5. On the **Users** tab, add the users who should be part of the group.
 6. On the **Approvers** tab, add the approvers and which hierarchy level each one will have during the approval workflow.
 7. On the **Access Limitation** tab, define the dates, days and times when users can perform JIT accesses.
-![jit3.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/jit3.png){height="" width=""}
 
 8. To finish, click **Save**.
 

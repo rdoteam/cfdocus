@@ -50,11 +50,9 @@ It allows more than one report to be associated with a schedule, thus optimizing
 
 To do this, access any report you want to associate with a schedule, click on the report's action button, and choose the option ***Schedule Report***. A page will be displayed with the list of schedules already registered; click on the button ***Select*** corresponding to the scheduled you want to associate the report with.
 
-![image.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/image%28299%29.png){height="" width=""}
 
 In the form, you will see in the field ***Reports**** the reports associated with the schedule. Check in the tabs ***Users***, the users who will receive the reports, and in the ***Schedule*** tab the period and days of delivery. click the delete button for this report on the ***Details*** tab.
 
-![image.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/image%28300%29.png){height="" width=""}
 
 If the report can be associated with the schedule, click ***Save***.
 

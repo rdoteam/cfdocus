@@ -85,7 +85,6 @@ The permission that the user has in the directory or file is what determines if 
 
 When the robot finishes executing, the results will be returned automatically.
 
-![Untitled.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/Untitled%281%29.png){height="" width=""}
 
 :::(Internal) (Angélica)
 Verificar se esse poderá entrar>>>>>>>>>>>>>>>

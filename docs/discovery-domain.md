@@ -9,12 +9,10 @@
 1. Go to **Discovery ➔ Settings ➔ Discovery;**
 2. Click on the icon `⁝`, and choose the option **+ New;**
 
-![chrome_wkKUkjUNku.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/chrome_wkKUkjUNku.png){height="" width=""}
 
 1. Select **Domain;**
 2. Add the information:
 
-![devices1.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devices1%281%29.png){height="" width=""}
 
 - **Name:** name that will identify the search.
 - **Domain:** IP or domain name.
@@ -50,7 +48,6 @@ The credential filled in the **Access credential** field must have the info `su
 Higher-priority credential pools take precedence over lower-priority credential pools.
 
 ## Searches
-![devicesseacher.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesseacher%282%29.png){height="" width=""}
 
 - **Search for credentials:** if this option is enabled, credentials will be included in the discovery process.
 - **Search for device groups:** if this option is enabled, device groups will be included in the discovery process.
@@ -79,7 +76,6 @@ The FQDN will be the unique device identifier if this option is enabled.
 :::
 
 ## Search parameters
-![devicessearch.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicessearch.png){height="" width=""}
 
 - **Account form:** form type used for account search.
 - **DN of the credential filter (leave blank to use DN Base):** credential filter domain name.
@@ -108,7 +104,6 @@ If left blank, the base DN will be used.
 - **DN Bind (leave blank to use DN Base):** domain name of the user doing the search. If left blank, the base DN will be used.
 
 ## Filters for search
-![devicesfilter.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesfilter.png){height="" width=""}
 
 - **Credential search filters:** filter to identify the desired credentials.
 - **Device search filters:** filter to identify the desired devices.
@@ -117,7 +112,6 @@ If left blank, the base DN will be used.
 When choosing the Windows Plug-in option, senhasegura will attempt to connect to devices using the Windows RPC, Windows WMI, and Windows RM protocols.
 
 ## Execution
-![devicesexecution.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesexecution%281%29.png){height="" width=""}
 
 - **Keep scan active after import?:** credential verification that will remain active after credential import or not.
 - **Days allowed for execution**: days that will be allowed to perform the execution.
@@ -131,7 +125,6 @@ It is not recommended to add an interval of fewer than 8 hours.
 :::
 
 ## Import
-![devicesimport.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesimport%281%29.png){height="" width=""}
 
 - **Create unique glossary for this discovery:** an exclusive glossary with the data requested in the
  search.
@@ -156,7 +149,6 @@ Additional tabs will be displayed only if selected in the Searches tab
 
 If you click on Searches, and the option "Search for certificates" is checked, you will have one more tab:
 
-![devicescertificate.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicescertificate%281%29.png){height="" width=""}
 
 :::(Info) (Info)
 Valid extensions for performing a certificate discovery are:
@@ -256,7 +248,6 @@ When selecting the **NetScaler** option, these fields will be displayed:
 ### DevOps
 
 If you click on Searches, and the option "Find DevOps artifacts" is checked, you will have one more tab:
-![devicesdevops.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/devicesdevops%281%29.png){height="" width=""}
 
 **Ansible settings**
 

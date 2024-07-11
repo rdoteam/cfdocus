@@ -14,7 +14,6 @@ PAM Core ➔ Settings ➔ Access ➔ Web sessions.
 
 You will see a report with previously registered automation. To create a new automation, click the action button in the upper-right corner and click ***New***.
 
-![image-1664998946959.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/image-1664998946959%281%29.png){height="" width=""}
 
 On the screen that opens, start by choosing the ***Device product,*** i.e. a previously registered device that is going to be the target of your automation.
 

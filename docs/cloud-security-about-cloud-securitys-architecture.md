@@ -8,7 +8,6 @@
 ## Metadata_End
 In this article, you’ll find an overview of **Cloud Security’s** multitenant architecture and a definition of its three key levels of components.
 
-![Captura de tela 2023-11-24 115241.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/Captura%20de%20tela%202023-11-24%20115241.png){height="" width=""}
 
 ## Organization
 An organization is the first level in the multitenant architecture of **Cloud Security**. Each organization is a self-contained entity that has its own set of tenants.

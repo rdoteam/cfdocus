@@ -39,7 +39,6 @@ In the filter bar, the filter selection can be made by object ID or name.
 Perform scan inactivation in menu menu **Discovery ➔ Devices**
 1. Select the desired Device
 2. Edit the **Active** option and save the change
-![image.png](https://cdn.document360.io/5a1d58df-64ce-42a2-8b23-688477d32f33/Images/Documentation/image-RY3J70DG.png){height="" width=""}
 
 Deactivation will be performed automatically
 
