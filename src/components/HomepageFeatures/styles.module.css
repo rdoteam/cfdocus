@@ -1,11 +1,18 @@
 .features {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.feature {
+  flex: 1 1 30%; /* Força os itens a ocupar até 30% do contêiner pai */
+  max-width: 30%; /* Garante que cada item não exceda 30% do contêiner pai */
+  margin: 10px;
+  text-align: center;
+}
+
+.featureImage {
+  width: auto;
+  max-width: 100px; /* Ajuste conforme necessário para um tamanho menor */
+  height: auto;
 }

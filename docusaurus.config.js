@@ -1,150 +1,70 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+// docusaurus.config.js
 
-import {themes as prismThemes} from 'prism-react-renderer';
-
-/** @type {import('@docusaurus/types').Config} */
-const config = {
-  title: 'senhasegura Docus',
-  tagline: 'the new best version',
-  favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://docs.senha.seg.br',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+module.exports = {
+  title: 'senhasegura',
+  tagline: '3.32 testing',
+  url: 'https://example.com', // Altere para a URL apropriada
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  //organizationName: '', // Usually your GitHub org/user name.
-  //projectName: '', // Usually your repo name.
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
+  organizationName: 'senhasegura', // Nome da sua organização
+  projectName: 'senhaseguradocs', // Nome do seu repositório
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'pt'],
+    defaultLocale: 'en', // Locale padrão
+    locales: ['en', 'pt-BR'], // Outros locales disponíveis
     localeConfigs: {
-      pt: {
+      en: {
+        label: 'English',
+      },
+      'pt-BR': {
+        label: 'Português',
+        path: 'pt-BR',
+        direction: 'ltr',
         htmlLang: 'pt-BR',
-      }
-    }
+      },
+    },
   },
+
+  themeConfig: {
+    navbar: {
+      title: 'senhasegura',
+      logo: {
+        alt: 'senhasegura Logo',
+        src: 'img/senhasegura.png',
+      },
+      items: [
+        { to: 'docs/intro', label: 'Documentation', position: 'left' },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      // O campo `defaultLocale` não pertence ao `footer`
+      copyright: `Copyright © ${new Date().getFullYear()} senhasegura. Built with Docusaurus.`,
+    },
+  }, 
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebarsAuto.js'), // Usar configuração da sidebar automática
+          editUrl: 'https://github.com/your-org/your-repo/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/your-org/your-repo/edit/main/website/blog/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'senhasegura',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            type: 'localeDropdown',
-            position: 'left',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
 };
-
-export default config;

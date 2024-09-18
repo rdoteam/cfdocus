@@ -18,10 +18,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# wrangler files
-.wrangler
-.dev.vars
-
-# vscode
-*.code-workspace

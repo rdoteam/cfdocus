@@ -21,3 +21,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.feature {
+  margin: 20px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
