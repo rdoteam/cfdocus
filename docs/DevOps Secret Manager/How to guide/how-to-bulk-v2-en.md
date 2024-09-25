@@ -13,7 +13,7 @@ As visual feedback, you can follow the stage you are currently at. To do this, l
 3. On the secrets list page, select the ones you want to change and, in the bottom right corner, click **Bulk Action**.
 4. Choose the type of change. You can choose three options: I*nactivate DSM secrets, Activate DSM secrets*, and *Expire DSM secrets*.
 
-:::(warning) (Caution)
+:::danger Caution
 To carry out any of the bulk operations, there must be approvers. For more information, see the documentation on How to register an approver user.
 :::
 

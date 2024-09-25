@@ -1,12 +1,12 @@
-# **How to use a DSM automation to inject a secret**
+# How to use a DSM automation to inject a secret
 
 ## Requirements
 
 * Create automation by following the steps described in How to manage automations on senhasegura DevOps Secret Manager document.
 
-INFO
-
+:::tip Info
 The execution templates for injecting the secrets can be found in the senhasegura repository on GitHub.
+:::
 
 ## Azure Key Vault
 
@@ -20,12 +20,10 @@ In the Action tab, select the Google Secret Manager - Inject Secret template to 
 
 You can analyze the details of the injection by selecting on Google Secret Manager, Security > Secret Management, and, in this secrets list, click on the item created by senhasegura.
 
-Caution
-
+:::danger Caution
 Note that these two templates aren't registered with senhasegura by default, so you must add them. You can find the templates in the senhasegura repository on GitHub.
+:::
 
 ---
 
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
-
-**

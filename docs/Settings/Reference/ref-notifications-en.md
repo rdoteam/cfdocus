@@ -1,5 +1,8 @@
-# Reference - Notifications
+# Notifications
 
+This document will shown all the features related to the Notifications settings on senhasegura.
+
+## Path to access
 To access the system's notifications, access **Grid Menu > Settings > Notifications > Settings**. The fields below refer to the notification search report. On the screen, you will find the following information:
 
 ## Top bar
