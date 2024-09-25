@@ -9,10 +9,10 @@ The dashboard displays data relating to the selected application. To choose the 
 
 This dashboard will have the following elements:
 
-* **Authorizations**: tells you how many authorizations per application are registered for the selected application. Clicking on the card takes you to the **Authorizations** per application window. For more information, see the [Authorizations per application](/v3-32/docs/how-to-manage-authorizations-per-application-in-devops-secret-manager) documentation.
+* **Authorizations**: tells you how many authorizations per application are registered for the selected application. Clicking on the card takes you to the **Authorizations** per application window.
 * **Environments**: tells you which environments are part of that application. Clicking on the card takes you to the **Environments** window. The **Environments** window lists the environments registered in DSM. You can also register a new environment from this window. For more information, see the documentation on Environments in DSM.
 * **Systems**: informs you of the systems that are part of that application. Clicking on the card takes you to the **Systems** window. You can also register a new system from this window. For more information, see the documentation on How to manage systems in DevOps Secret Manager.
-* **Secrets**: tells you how many secrets are registered in the DSM and linked to the authorization of the selected application. Clicking on the card takes you to the **Secrets** window. For more information, see the [Secrets](/v3-32/docs/how-to-manage-secrets) documentation.
+* **Secrets**: tells you how many secrets are registered in the DSM and linked to the authorization of the selected application. Clicking on the card takes you to the **Secrets** window.
 * **Credentials**: informs you of the credentials that are linked to the secrets, which are linked to the authorizations that are linked to the application. Clicking on the card takes you to the **Credentials** window. You can register a new credential from this window.
 * **Access keys**: informs you of the access keys linked to the application. Clicking on the card takes you to the Credentials window.
 
