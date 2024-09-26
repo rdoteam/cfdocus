@@ -1,18 +1,10 @@
-	
-
-| Assunto / Subject: | CONFIGURAÇÕES \> AUTENTICAÇÃO  DE MULTIFATOR \> PROVEDORES |
-| :---- | :---- |
-| **Tipo / Type:** | HOW |
-| **Idioma / Language:** | **PT** |
-| **Issue do Jira / Jira’s Issue:** | [TCS-2403](https://mt4.atlassian.net/browse/TCS-2471) |
-
 # Como cadastrar um provedor de autenticação de multifator Radius
 
 O senhasegura permite integrar o Radius como provedor de autenticação multifatorial.
 
 ## Requisitos
 
-* Ter o papel de System Administrator.
+* Ter o papel de *System Administrator*.
 
 ## Cadastrar um provedor MFA do tipo Radius
 

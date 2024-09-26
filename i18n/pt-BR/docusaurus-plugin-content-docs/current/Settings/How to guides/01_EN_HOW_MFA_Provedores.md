@@ -1,11 +1,3 @@
-	
-
-| Assunto / Subject: | CONFIGURAÇÕES \> AUTENTICAÇÃO  DE MULTIFATOR \> PROVEDORES |
-| :---- | :---- |
-| **Tipo / Type:** | HOW |
-| **Idioma / Language:** | **PT** |
-| **Issue do Jira / Jira’s Issue:** | [TCS-2403](https://mt4.atlassian.net/browse/TCS-2471) |
-
 # Como cadastrar um provedor de autenticação de multifator (MFA)
 
 Registrar um provedor de autenticação de multifator (MFA) é um passo crucial para fortalecer a segurança dos sistemas de informação e garantir que apenas usuários autorizados tenham acesso a dados sensíveis e recursos críticos. O MFA adiciona uma camada extra de proteção ao processo de autenticação, exigindo que os usuários forneçam dois ou mais fatores de verificação antes de conceder acesso aos sistemas. Esta abordagem combina algo que o usuário sabe (como uma senha), algo que o usuário tem (como um token de segurança ou um aplicativo de smartphone) e, às vezes, algo que o usuário tem (como uma impressão digital ou reconhecimento facial).
