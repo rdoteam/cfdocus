@@ -75,4 +75,4 @@ Saving variable TTL with value ****
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

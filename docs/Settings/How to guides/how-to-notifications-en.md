@@ -16,7 +16,7 @@ senhasegura allows you to send reports by email as well as schedule them. This w
 6. Click **Save**.
 
 :::(warning) (Attention)
-To use the option to send SMS notifications, you must have the Zenvia integration properly configured. Without this configuration, SMS notifications won't be sent. To find out how to set up integration with Zenvia, visit the document Integration with SMS service.
+To use the option to send SMS notifications, you must have the Zenvia integration properly configured. Without this configuration, SMS notifications won't be sent. To find out how to set up integration with Zenvia, visit the document [Integration with SMS service](https://docs.senhasegura.io/v3-31/docs/pt/administration-integration-with-sms-service).
 :::
 
 ### Notification report for password change failure
@@ -65,4 +65,4 @@ You can insert times other than those predefined in the checkboxes. To do this, 
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

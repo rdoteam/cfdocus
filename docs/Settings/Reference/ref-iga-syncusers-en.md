@@ -1,4 +1,4 @@
-# Reference for synchronized users
+# Synchronized users
 
 This document provides a general overview of the **Synchronized users** functionality.
 

@@ -1,4 +1,4 @@
-# Reference - Bulk operations report
+# Bulk operations
 
 For a bulk operation to be carried out, an approving user must authorize it. To view pending requests, access **Grid Menu > Reports > Events > Bulk operations**. The fields below refer to the request search report.
 

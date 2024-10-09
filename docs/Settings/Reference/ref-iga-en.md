@@ -1,4 +1,4 @@
-# Reference for identity management providers (IGA)
+# Identity management providers (IGA)
 
 This document provides a general overview of the **Identity management providers (IGA**) functionality.
 
@@ -17,7 +17,7 @@ This document provides a general overview of the **Identity management providers
 | **New**             | Represented by the plus icon, it opens theRegister Identity Management Providerscreen.                                                                                                                 |
 | **Print report**    | Represented by the printer icon, it opens a new page for printing the report.                                                                                                                          |
 | **Export CSV**      | Represented by the paper sheet icon, it downloads the report.                                                                                                                                          |
-| **Schedule report** | Represented by the clock icon, it opens the Schedule report form. |
+| **Schedule report** | Represented by the clock icon, it opens the [Schedule report](https://docs.senhasegura.io/v3-31/docs/en/general-information-how-to-issue-download-and-schedule-device-reports#scheduling-reports) form. |
 
 ## Search field
 

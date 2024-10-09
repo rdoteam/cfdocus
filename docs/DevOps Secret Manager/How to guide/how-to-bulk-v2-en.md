@@ -13,7 +13,7 @@ As visual feedback, you can follow the stage you are currently at. To do this, l
 3. On the secrets list page, select the ones you want to change and, in the bottom right corner, click **Bulk Action**.
 4. Choose the type of change. You can choose three options: I*nactivate DSM secrets, Activate DSM secrets*, and *Expire DSM secrets*.
 
-:::danger Caution
+:::(warning) (Caution)
 To carry out any of the bulk operations, there must be approvers. For more information, see the documentation on How to register an approver user.
 :::
 
@@ -72,4 +72,4 @@ Once the process has been completed, a user who is registered as an approver for
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

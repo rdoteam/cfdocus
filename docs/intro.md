@@ -94,15 +94,15 @@ Installing senhasegura is a straightforward process designed to get you up and r
 - **Hardware:** Minimum 8GB RAM, 200GB storage
 - **Network:** Stable internet connection for updates and remote access features
 
-For more details check Virtual appliances
+For more details check [Virtual appliances](https://docs.senhasegura.io/v3-33/docs/installation-virtual-appliances)
 
 ### **Installation steps**
 
 To start the installation, follow these steps:
 
-1. **Define your architecture**: use the articles High Availability (HA) and Disaster Recovery(DR) and Supported architectures to determine the most suitable architecture for your senhasegura deployment.
-2. **Firewall rules**: create the necessary firewall rules based on the selected architecture.
-3. **Access Installation Guides:** detailed step-by-step instructions for installing senhasegura on various operating systems can be found in senhasegura Installation Documentation.
+1. **Define your architecture**: use the articles [High Availability (HA) and Disaster Recovery(DR)](https://docs.senhasegura.io/v3-33/docs/installation-architecture-high-availability-and-disaster-recovery) and [Supported architectures](https://docs.senhasegura.io/v3-33/docs/installation-supported-architectures) to determine the most suitable architecture for your senhasegura deployment.
+2. **Firewall rules**: create the necessary [firewall rules](https://docs.senhasegura.io/v3-33/docs/installation-firewall-rules) based on the selected architecture.
+3. **Access Installation Guides:** detailed step-by-step instructions for installing senhasegura on various operating systems can be found in [senhasegura Installation Documentation](https://docs.senhasegura.io/v3-33/docs/installation).
 4. **Verification:** verify the installation by accessing senhasegura using its address in your browser. Ensure that all services are running correctly and that you can log in with the administrator account.
 
 By following these steps, you will have senhasegura installed and configured, ready to manage and secure your organization's privileged access.

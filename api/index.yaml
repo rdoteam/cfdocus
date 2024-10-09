@@ -1,0 +1,140 @@
+openapi: 3.0.0
+info:
+  title: "senhasegura\xAE API Reference DSM"
+  version: 1.0.0
+servers:
+- url: '{{senhasegura_uri}}'
+paths:
+  /iso/dapp/application:
+    post:
+      summary: Create or Update Application
+      description: Create a new Application/Authorization on DAPP module.
+      responses: {}
+  /iso/sctm/secrets:
+    get:
+      summary: List All Secrets
+      description: ''
+      responses:
+        '200':
+          description: List All Secrets
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: object
+                    properties:
+                      status:
+                        type: integer
+                        example: 200
+                      mensagem:
+                        type: string
+                        example: "{\n    \"response\": {\n        \"status\": 200,\n\
+                          \        \"mensagem\": \"\",\n        \"erro\": false,\n\
+                          \        \"cod_erro\": 0,\n        \"message\": \"\",\n\
+                          \        \"error\": false,\n        \"error_code\": 0\n\
+                          \    },\n    \"secrets\": [\n        {\n            \"secret_id\"\
+                          : \"3\",\n            \"secret_name\": \"senhasegura/dsm/postman/secret-example\"\
+                          ,\n            \"identity\": \"senhasegura/dsm/postman/secret-example\"\
+                          ,\n            \"version\": \"433\",\n            \"description\"\
+                          : \"\",\n            \"expiration_date\": \"\",\n      \
+                          \      \"engine\": \"Generic\",\n            \"data\": [\n\
+                          \                {\n                    \"DB_HOST\": \"\
+                          MYSQL\",\n                    \"DB_USER\": \"root\",\n \
+                          \                   \"DB_ADD_INFO\": \"\",\n           \
+                          \         \"DB_PASSWD\": \"c+kEucAQGS4xCpFwQZLnoJLOmmIHcwMRGfiPeNtbpjUarRgSy0CyPPuxUw/Yvqhw2SH8yecYTvtNaYErkY504p9Z1dKE2UlHyUfPDiVCnzjcyWaiqe9PqxtTYuIEje61fI2s1fukRQmoeybyjjQoIZUhMFZDJoGBrkya8cneDGjj5mOyOlTqkjBphIZ11+zhWhAi1I/nsquuDxOXt8xYqf/Z31h5mDnjh3GK7GBzvqNt2bx4OrOSu2t9l1ZewcjsNt3tb6RM+G3+TJcmbN74UolxEyEPddGFKP2nOqoEfzDkg72RCek08WFmAVCWmQa9d7HJFz/t/92npxhzApo8xw==\"\
+                          ,\n                    \"ip\": \"10.66.34.72\"\n       \
+                          \         },\n                {\n                    \"\
+                          AWS_ACCESS_KEY_ID\": \"AKIASQGYZVJASSFSHP2P\",\n       \
+                          \             \"AWS_SECRET_ACCESS_KEY\": \"T+XdxCyebHfB5//QOfrO95AAVijQHDxx4hlvKnfthpesjm0mrVO1e01xWThzhxKaJvbz1cwkwzNoPnXR+KLlxL3T1Sz95yYpRtDCjmNX8P4CqA/Npwcuz3g/4MqbnXqY9W5Gsi4q34aJ3CYYcYV05vHUFAFwh5mbmwwfaX1TF1/yy2d8Uw1KaAgu7jbcrABk/d7yOKSH6w+4furED3WdEKlXNfzEWhZs/fzrF3vsC2/EZ6yxveYL2RXbi54NlIkkaEaeFQCr5lB1i+Ba/m/EXqE433iWzdjhKqg5/MNdJQmwWmeBSkhwQ1xFr+Lnby6kgukQAMBe80SEzD766Z93Yg==\"\
+                          ,\n                    \"TTL\": \"\"\n                },\n\
+                          \                {\n                    \"TEST\": \"123456\"\
+                          \n                }\n            ]\n        }\n    ]\n}"
+                      erro:
+                        type: boolean
+  /iso/sctm/secret/{{secret_id_enc}}:
+    get:
+      summary: Access Secret by ID
+      description: ''
+      responses:
+        '200':
+          description: Access Secret by ID
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: object
+                    properties:
+                      status:
+                        type: integer
+                        example: 200
+                      mensagem:
+                        type: string
+                        example: "{\n    \"response\": {\n        \"status\": 200,\n\
+                          \        \"mensagem\": \"Secret found\",\n        \"erro\"\
+                          : false,\n        \"cod_erro\": 0,\n        \"message\"\
+                          : \"Secret found\",\n        \"error\": false,\n       \
+                          \ \"error_code\": 0\n    },\n    \"secret\": {\n       \
+                          \ \"secret_id\": \"7\",\n        \"secret_name\": \"senhasegura/dsm/postman/dev/secret-example\"\
+                          ,\n        \"identity\": \"senhasegura/dsm/postman/dev/secret-example\"\
+                          ,\n        \"version\": \"2\",\n        \"description\"\
+                          : \"This is a secret created/updated through the senhasegura\xAE\
+                          \ API\",\n        \"expiration_date\": \"2023-01-16 23:59:00\"\
+                          ,\n        \"engine\": \"Generic\",\n        \"renew_cloud_time\"\
+                          : false,\n        \"renew_credential_time\": false,\n  \
+                          \      \"renew_ephemeral_credential_time\": false,\n   \
+                          \     \"data\": [\n            {\n                \"HOST\"\
+                          : \"debian\",\n                \"USER\": \"root\",\n   \
+                          \             \"ADD_INFO\": \"\",\n                \"PASS\"\
+                          : \"Ka8qpMVk1nmj0ZUgZiSaO8W45t94Sal3kXyYQqI7NKc+Nr2v1wFD6bzNbTUQlgBXi6lKIfvoST31UEDQ6kYEXeyPkaC3R6shu9pUZHB0T/FhFGwneyb1u+g+BE7jWQXXPchJpLlCMVrfdCwPS1AYC6MiWgM+cEDvWf06MPLFBmRyDdOvsa8PHCB7nzA92ac/fr3KrYIUdNI7uQ65/N920G/GaNo2H+h3+W+9WiUPs9hVBtww1DM1tEMD4cZncbO5Hltnr6nJXiTUrS+cXiRB7OynzU7Ym2q8egA+hzzFlRm4TZ4HhbDXSiSxFHghvN8bShhtwB2JbpRtXPjzDvE+/Q==\"\
+                          ,\n                \"ip\": \"10.0.0.235\"\n            },\n\
+                          \            {\n                \"AWS_ACCESS_KEY_ID\": \"\
+                          AKIASQGYZVJASSFSHP2P\",\n                \"AWS_SECRET_ACCESS_KEY\"\
+                          : \"wEyVCNlyMcynckmAhaTxe2vAhzOfBtru/gkaSGatV9aFA5TZY5+BgdpqT1+ZEIopX4PMjR133NVCKKyawf9zBP/asMX03wiPb0+Alp2veNfnnFXdO2Qj0JSLGaQVWL1lJy+N6aDDF5sNDIhJYy4dOdRHQ9gJxxQr2VUUBTC0fypwDS5HlxV1lWBy87mYNTJGfenzT3ZJoViTZyCe5G8XifTAEkbaWX12BkO15b7Ymmv1zVUaot18SzaoCGSarS4nW7TzeJDs6ApXeyiXKaRhtGj9VnK8ADCEctI7fGD7f67lb1/0eojbmBBH0NXi9uBp8y8/zcmraplofM9ksihzSw==\"\
+                          ,\n                \"TTL\": \"\"\n            },\n     \
+                          \       {\n                \"APP\": \"Postman\",\n     \
+                          \           \"AUTHOR\": \"Elena Bruen\",\n             \
+                          \   \"BOOLEAN\": \"false\",\n                \"DATE\": \"\
+                          2023-01-16T14:21:21.565Z\",\n                \"HEX\": \"\
+                          #56186c\",\n                \"KEY\": \"bbc091a3-9414-4bbe-ab9a-78d0f51a696c\"\
+                          ,\n                \"TEST_NUMBER\": \"106208021617522449091\"\
+                          ,\n                \"TIMESTAMP\": \"1673878882\",\n    \
+                          \            \"VERSION\": \"6.6.9\"\n            }\n   \
+                          \     ]\n    },\n    \"exception\": {\n        \"message\"\
+                          : \"\"\n    }\n}"
+                      erro:
+                        type: boolean
+  /iso/sctm/secret:
+    post:
+      summary: Create or Update Secret
+      description: ''
+      responses: {}
+  /iso/cicd/variables:
+    post:
+      summary: Create or Update CI/CD Variables
+      description: Send to CICD module variables and, if used senhasegura mapping,
+        these variables will be saved as a secret.
+      responses: {}
+  /iso/sctm/provision:
+    post:
+      summary: Run Dynamic Provisioning on Secret by ID
+      description: ''
+      responses: {}
+  /iso/dapp/application/authorization:
+    delete:
+      summary: Delete Authorization
+      description: Inactive an authorization and, if automatic provisioning is enabled
+        on application settings, all authorization chain (secrets, access key, credentials)
+        will be deprovisioned too.
+      responses: {}
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+- bearerAuth: []

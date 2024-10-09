@@ -6,7 +6,7 @@ The agnostic nature of the DSM CLI means that it can be used in any CI/CD enviro
 
 This plug-in allows DevOps teams to centralize secret and application data effectively through DSM senhasegura, establishing a secure approach to consuming sensitive variables during the build and deployment phases.
 
-Download the tool from our repository at senhasegura/dsmcli.
+Download the tool from our repository at [senhasegura/dsmcli](https://github.com/senhasegura/dsmcli).
 
 ## DSM CLI as Running Belt
 
@@ -109,7 +109,7 @@ This file can be divided into three main blocks:
 2. `credentials`: an array of objects comprising the name attribute and a sub-object called fields. The last one includes the `user`, `password`, and `host` attributes. The values of these attributes must be the names of the variables containing this information, allowing senhasegura DSM to validate the existence of this data in the PAM module. If the data exists, it will be recorded as a secret for the authorization provided. It will be recorded as a key/value if it doesn't.
 3. `key_value`: is an array of objects composed of the name attribute and a fields subobject. The values of the array must be the names of the variables to be registered as secrets of the key/value type in senhasegura DSM.
 
-:::danger Important
+:::(warning) (Important)
 
 * This file must be named `senhasegura-mapping.json` and be at the same directory level as the executable.
 * Currently, the senhasegura DSM only supports access keys via integration with AWS, Azure, or GCP, which means that the type attribute provided must be one of the supported ones.
@@ -117,4 +117,4 @@ This file can be divided into three main blocks:
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

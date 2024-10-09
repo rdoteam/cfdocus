@@ -134,4 +134,4 @@ To activate automation, which for whatever reason has a status of **No** in the 
 
 ---
 
-Você ainda tem dúvidas? Entre em contato com a Comunidade senhasegura.
+Você ainda tem dúvidas? Entre em contato com a [Comunidade senhasegura](https://community.senhasegura.io/).

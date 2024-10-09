@@ -1,4 +1,4 @@
-# Reference for RADIUS server
+# RADIUS server
 
 ## Path to access
 
@@ -15,7 +15,7 @@
 | **New**             | Represented by the plus icon, it opens the**RADIUS server** screen.                                                                                                                            |
 | **Print report**    | Represented by the printer icon, it opens a new page for printing the report.                                                                                                                        |
 | **Export CSV**      | Represented by the paper sheet icon, it downloads the report.                                                                                                                                        |
-| **Schedule report** | Represented by the clock icon, it opens the Schedule reportform. |
+| **Schedule report** | Represented by the clock icon, it opens the [Schedule report](https://docs.senhasegura.io/v3-31/docs/en/general-information-how-to-issue-download-and-schedule-device-reports#scheduling-reports)form. |
 
 ## Search fields
 

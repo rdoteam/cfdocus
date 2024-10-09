@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Changelog v3.33
+# Changelog v3.32
 
 **Release date**: April 22, 2024
 
@@ -10,355 +10,257 @@ Check below the new features, improvements, and errors fixed in this version of 
 
 ***
 
-## ⚙ Changelog per Product
+# ⚙ Changelog per module
 
-### PAM - Credential Management
+## PAM - Credential Management
 
-#### Product Updates
-
+### Bug Fixes
 | Item | Description |
-|---|---|
-| 2571 | Implemented automatic generation of the `identifier` field based on UUID (Universal Unique Identifier) ​​in the Additional Settings tab of the credential. If the user does not inform the `identifier` when creating the credential, the system will create a unique identifier automatically. The generated value can be modified later. |
+|------|-------------|
+| 2275 | Fixed an issue causing automatic policy rollback when creating a credential policy based on tags and assigning the corresponding tag to the credential. Now, upon adding the tag to the credential, the created policy is permanently applied, ensuring consistency in the application of tag-based credential policies without undesired fallbacks to lower-level policies shortly after creation. |
+| 1063 | Fixed an issue where, when creating a new notification to send by e-mail at login, the option Send notifications only to contacts with access to credentials and device was not respected. |
+| 1979 | Fixed an issue where the Local User credential was not retaining the new policy when a password strength and credential type policy were applied using the Default policy. This caused the credential to persist with the Default policy instead of adopting the newly assigned one. |
+| 2186 | Fixed an issue in which the embedded Mozilla Firefox browser made requests to URLs outside of senhasegura's domain. |
 
-#### New Feature
-
+### Product Updates
 | Item | Description |
-|---|---|
-| 2060 | Fixed the behavior of access groups that previously did not correctly consider the sequence of approver levels, allowing the registration of approvers with levels out of order (1, 2, and 3). A validation was added that now prevents the access group from being saved if the approver levels do not follow the correct sequence. For example, it is only allowed to have approvers at levels 1 and 3 with an approver at level 2. |
+|------|-------------|
+| 1115 | Removed the Key Path field from the SSH Key form, as it's no longer necessary with the system now automatically generating private keys. This enhancement streamlines the key creation process by eliminating the need for manual key path input. |
+| 1125 | From now on, administrators will only receive email notifications when SSH credential/key password exchanges fail. The notification email includes a list of affected devices. |
 
-### PAM - Session Management
-
-#### Bug fixes
-
+### Translation Fix
 | Item | Description |
-|---|---|
-|2807| Fixed the error where the livestream of HTTP sessions on the Web Proxy wasn’t closed when the user ended the session.|
-|2851| Fixed access error with x11 connectivity on port 22.|
-|2871|Improvement in Emergency Panel Locking. Adjustment in the Emergency Dashboard to ensure that HTTP, SSH, and TELNET web sessions are correctly blocked during the freeze period. Ensuring greater compliance with access policies during emergency situations.|
-|2960|Fixed high CPU consumption behavior when starting Database Proxy Ms SQL Server sessions.|
-|2974|Removal of features in Web Session Parameters. The Extra field and the Virtual HTML Keyboard and External Virtual Keyboard options were removed from the Action field in Web Session Parameters.|
-|3278|Fixed crash error when starting MS SQL sessions using the DBeaver client.|
-|3844|Fixed error when logging into Terminal Proxy with Telnet connection.|
+|------|-------------|
+| 1116 | The label Renew the key without setting a password? has been changed to Renew the key and set a password? The new label has been applied to all instances where it appears. The modification of the label doesn't affect the functionality of key renewal. As a result of this change, the default value for this field is now Yes. |
 
-#### Product Updates
+## PAM - Session Management
 
+### Bug Fixes
 | Item | Description |
-|---|---|
-|2364|Change Audit now also audits sessions using the Proxy Terminal.|
-|119|Updated the notice about the file download and upload function, in System Parameters, which will only be valid for the Proxy 2.0.|
-|3025|Adjustment for acceptance of credential username containing the @ character in Terminal Proxy sessions via command prompt.|
-|2541|Removed the Process groups individually field from System Parameters in the Access Control section. This makes the interface more intuitive and management more simplified without changing existing functionality.|
-|1757|The permission for Video Viewing and Livestream actions has been split into two separate permissions, allowing more granular access to be defined for administrators and auditors, aligning permissions with the specific responsibilities of each user.|
-|2507|Implemented new access screen layout for RDP Gate proxy with access via Proxy 2.0.|
-|2329|A warning is included in sessions via Terminal Proxy and RDP Proxy, when a password is changed or expired, guiding the user on how to register a new password.|
-|3293|Implemented in the Terminal Proxy via Proxy 2.0 the choice of the type of protocol to be accessed after requesting the connection.|
+|------|-------------|
+| 2527 | Fixed the error where Database Proxy sessions weren't marked as closed even after disconnecting from the client. |
+| 2934 | Fixed MFA certificate validation error in Web Proxy sessions that allowed access to another workstation via RDP or SSH Proxy. |
 
-#### New Features
-
+### Product Updates
 | Item | Description |
-|---|---|
-|141| Implemented audio recording (input and output) when recording sessions on the Web Proxy using the RDP protocol.
-|170|Implemented touchscreen support in Web Proxy sessions accessed through the device's browser.
-|3364|The heatmap was implemented in the session videos, highlighting the periods of the video where there was greater user interaction.
-|3111|Added new connection strings for proxies when used with multi-tenant.
+|------|-------------|
+| 1995 | Fixed the error where the word proxy was together with the word Terminal, in the Session type field in the register of audited commands. |
+| 592 | The .rpd file will have one-time access and a period of 30 seconds for use after downloading. |
+| 2025 | Updated the libraries used in the proxy terminal and web proxy for SSH connection, to support RSA algorithms. |
+| 1406 | Added the Justification field in the Remote Access History report. |
+| 607 | Implemented support for authentication via Kerberos for RDP Gate and RDP via Web Proxy sessions. |
+| 119 | The Enable file transfer field was divided, in System Parameters and Segregated Parameters, between Enable file transfer for download and Enable file transfer for upload. |
+| 991 | Support for the RSA_SHA2_256 and RSA_SHA2_512 algorithms has been implemented for web proxy and terminal proxy connections. |
 
-### PAM - Settings
-
-#### Bug fixes
-
+### Translation Fix
 | Item | Description |
-|---|---|
-| 2621 | Fixed a problem in the generation of the OAuth2 token after updating to Debian 12, where the format sent for generation was different from what was previously expected.|
-| 2847 | Fixed an error when backing up credentials via RSync that occurred when the credential used contained special characters. |
-| 2253 | Fixed the problem of converting the characters &, < and > to entity codes in the password field of the user form when the form is reloaded due to an error in the data.|
-| 2813 | Fixed the internal server error that occurred when checking and confirming available updates, caused by an incorrect argument of type array instead of string in the task saving process. |
-| 2670 | Fixed the problem that caused the description of a cloned role to appear as an editable I18N string. |
+|------|-------------|
+| 2415 | Fixed the error where multiple fields on the System Parameters screen, in the Spanish language, didn't have a question mark at the beginning of the sentence. |
+| 1853 | Fixed an error that replaced Serbian Latin and Cyrillic characters, when pasted, with question marks in web sessions. |
 
-#### Product Updates
+## PAM - Settings
 
+### Bug Fixes
 | Item | Description |
-|---|---|
-| 2389 | A message has been added advising the user that it's not possible to have the same email registered with Domum and PAM.|
-| 1692 | Added the Deactivation Date field for the user in the user's tab.|
-| 2673 | A non-parameterizable password policy has been added for the mt4adm user, applicable from version 3.33 of senhasegura. The policy includes: a maximum of three password attempts, a minimum of 12 characters, at least one lowercase letter, one uppercase letter, one number, one special character, 10 changes from the previous password, and a ban on passwords in common wordlists.|
-| 1757 | The permission for Video Visualization and Livestream actions has been split into two separate permissions, allowing more granular access to be defined for administrators and auditors, aligning permissions with the specific responsibilities of each user. |
-| 2445 | The libraries and tools used by senhasegura were updated. |
-| 2380 | A warning has been added to the OpenID provider registration screen, informing the user that they must fill in the OpenID endpoint configuration field or the URL of other endpoints. The warning on the screen has been modified to take account of the change. It will now appear, in red, just above the indicated fields with the message “Fill in at least the OpenID endpoint configuration or the URL of other endpoints”. |
+|------|-------------|
+| 2570 | Fixed the issue causing users utilizing DUO for authentication to encounter an 'Internal Server Error 500' after the update to version 3.31. |
 
-#### Translation fix
-
+### Product Updates
 | Item | Description |
-|---|---|
-| 3788 | A misspelling has been corrected in the Behavior section of the System Parameters. Where it used to read Visualizção, it now reads Visualização.|
-| 3769 | A translation error has been corrected where the Start Date and End Date columns in the Batch Import Processing report, accessible from Settings > User Management > Batch import, were displayed in Portuguese even when the user's language was set to English.|
-| 3840 | Typos in user permissions in English have been corrected. Where it used to read List all Virutal Machines resources, it now reads List all Virtual Machines resources; where it used to read View Virtual Machines resources details, it now reads View Virtual Machines resources details, and, where it used to read Create and update to all provisioning resources, it now reads Create and update all provisioning resources.|
-| 3762 | A translation error has been corrected in the English sentence on the backup screen in Orbit Config Manager > Settings > Backup. Where it used to read How will the how to send backup files? it now reads How will backup be sent?.|
+|------|-------------|
+| 1928 | Removed URL validation for the SAML Provider registration field to prevent any impact on integration configuration. |
+| 1898 | Added a notification on the Active Directory Group registration screen, including a link to the documentation "How to Synchronize Users and Groups from Active Directory”. |
+| 1810 | Added a configuration flag to enable or disable the use of Network Connector on SMTP and IMAP/POP3 servers. |
+| 1851 | Upgraded the graph creation library for building dashboards from HighCharts to ApexCharts. |
 
-### Orbit
+## Orbit
 
-#### Bug fixes
-
+### Security
 | Item | Description |
-|---|---|
-| 3414 | The orbit apt-fix --force command has been deprecated. If the administrator tries to use the command, they will receive the message: “This command is deprecated. Use orbit repository configure stable”. |
+|------|-------------|
+| 1948 | Fixed an issue that was allowing users to access other users' sensitive information in a specific scenario. |
+| 2093 | The “admin” user was renamed to “mt4web” and a command was created to facilitate this renaming process. |
 
-#### Product Updates
-
+### Translation Fix
 | Item | Description |
-|---|---|
-| 3414 | The orbit repository configure command has been implemented in order to allow the administrator to configure repositories on senhasegura.|
+|------|-------------|
+| 2684 | Fixed translation errors for Portuguese in the System Parameters |
+| 2863 | Fixed a spelling error in the "Username" column that was incorrectly written within Settings. |
 
-### Task Manager
+## Task Manager
 
-#### Product Updates
+### Behavior Bug Fixes
+| Item | Description |
+|------|-------------|
+| 1755 | Fixed the issue with the Viewing interval filter, which was previously filtering by date instead of by the number of views. |
 
- Item | Description |
-|---|---|
-| 2048 | Updated the Task Manager logo to reflect the color scheme used in other senhasegura product logos, ensuring a cohesive and recognizable visual identity across the entire product line.|
+## A2A
 
-#### Removed
+### Bug Fixes
+| Item | Description |
+|------|-------------|
+| 1918 | Fixed the issue that was causing the character & to be changed into its entity code &amp in the Tags field in the SSH key report and when editing an SSH key. |
 
- Item | Description |
-|---|---|
-| 3069 | Removed the parameters Allow file transfer*, Maximum transfer limit (in kb)*, and File retention time (in days, 0 for unlimited)* from the System settings screen.|
+### Product Updates
+| Item | Description |
+|------|-------------|
+| 441 | Updated Certificate Manager to allow users to import SSL certificates through API requests. |
+| 1071 | Introduced an API for consulting users' session data. The methods available are GET by id and GET for all sessions. |
+| 1144 | Updated the SSH key API to include key_name, enabled, tags, and devices parameters for adding devices to an SSH key. Except for the 'enabled' parameter, all these are also accessible for querying an SSH key. Use the endpoints POST /iso/pam/key and GET /iso/pam/key/id for these operations. |
 
-### Behavior
+## Discovery
 
-#### Bug fixes
+### Bug Fixes
+| Item | Description |
+|------|-------------|
+| 1662 | Fixed an error occurring when attempting to use the glossary in Discovery. |
 
- Item | Description |
-|---|---|
-| 765 | Fixed a scaling issue in the Sessions and Views charts that was incorrectly showing more sessions and views with risk than total sessions and views.|
+### Product Updates
+| Item | Description |
+|------|-------------|
+| 184 | Added the ability to perform a device search and manually import only devices not registered with senhasegura. |
+| 1429 | Improved Discovery functionality to handle and support repeating IP addresses in the discovery process. Discovery can now successfully import and display information in the device report, even in cases of overlapping IPs. |
 
-#### Product Updates
-
- Item | Description |
-|---|---|
-| 765 | Renamed the tables available on Dashboards > PAM Core > Behavior. Their names are now Top 5 sessions with risk. Top 5 views with risk, Last 5 sessions with risk, and Last 5 views with risk.|
-| 765 | Renamed the terms accesses to sessions in charts and tables for more clarity and consistency.|
-
-#### New Feature
-
- Item | Description |
-|---|---|
-| 785 | Added the Continuous Identification feature, which requests additional verification of the user's identity upon detecting unusual actions during a session or password viewing.|
-
-### A2A
-
-#### Bug fixes
-
- Item | Description |
-|---|---|
-| 2816 | Fixed the issue that resulted in an Internal Server Error when creating an authorization for an application. This error occurred after filling out the Security settings, using the * character in the Authorized IPs field, and selecting the Read and write option in PAM resource permission*, followed by clicking Save.|
-
-#### Product Updates
-
- Item | Description |
-|---|---|
-| 2900 | Fixed the naming inconsistency in the SSH key and credential APIs' responses regarding the `identifier` field, previously named `tag`. Now, the APIs return the correct naming, consistent with the request parameters and eliminating any confusion. This update affects the `GET` and `POST` by `id` methods for the `/api/pam/credential/` endpoint and the `POST` method for `/api/pam/key`..|
-| 2571 | Implemented automatic generation of the `identifier` field using UUIDs (Universally Unique Identifiers) in the Additional settings tab of credentials. If you leave the `identifier` field blank, the system will create a unique identifier for you. You can still modify this generated value later to something more meaningful or appropriate for your environment.|
-
-### Discovery
+## PEDM - Linux / AD Bridge
 
 No changes.
 
-### PEDM - Linux
+## PEDM - AD Bridge
 
 No changes.
 
-### PEDM - AD Bridge
+## PEDM - Windows
+
+### Bug Fixes
+| Item | Description |
+|------|-------------|
+| 344 | Fixed error The requested operation requires elevation that happened while trying to run some applications with elevation of privileges. |
+| 1594 | Fixed an error that allowed the execution of an application listed in a denylist. |
+| 1623 | Fixed issue where using the "runes" functionality (to impersonate a domain administrator) would display a warning message that access to the home directory had been denied. |
+| 2725 | It is no longer necessary to register new users on workstations where senhasegura.go client has already been registered. |
+| 2786 | senhasegura.go client returns an alert that elevation of privileges is necessary to change network adapters. |
+| 478 | Adjusted lift flow. Now, the senhasegura.go client allows you to copy and paste all local users and user groups, to facilitate their registration in the administrator's environment. |
+| 2439 | Fixed an error that occurred when trying to run an application with the Execute with senhasegura.go functionality on Windows Server 2016. |
+| 2580 | The recommended command for installing and reinstalling the senhasegura.go client via the command line has been updated. |
+
+### Product Updates
+| Item | Description |
+|------|-------------|
+| 378/395 | PEDM GO Windows event reports now feature commands entered via PowerShell and CMD in the senhasegura.go client. |
+| 679/680 | New parameters for the behavior of parent and child processes, executed by the senhasegura.go client, have been added to the rules of an access list in senhasegura. |
+| 2875 | senhasegura now has two versions of PEDM GO Windows in two separate windows, available on the platform. To use the new version, it is necessary to update the senhasegura.go client to the same version of senhasegura (administrator environment). |
+| 2949 | The Synchronize local groups functionality has been removed from the options (menu opened by right mouse button) of the senhasegura.go client. |
+| 3049 | It is now necessary to create the senhasegura.go client user in the senhasegura PAM, so that features such as impersonation (and all others that need a PAM credential connections) work as expected. |
+| 3063 | The PEDM GO Windows parameter settings were divided into two tabs within System Parameters page, the GO Windows tab, must be used with the senhasegura.go client up to v3.31 and the PEDM GO Windows, must be used with senhasegura.go client v3.32. |
+
+## DSM (DevOps Secret Manager)
+
+### Bug Fixes
+| Item | Description |
+|------|-------------|
+| 584 | Fixed a bug where a secret's details page would not close automatically after exceeding the approved range. |
+| 1765 | Fixed a bug related to the "Authorization Activation trigger", which was not functioning as expected. |
+
+### Product Updates
+| Item | Description |
+|------|-------------|
+| 2335 | Implemented asymmetric cryptography methods for cryptographic keys in the DSM. |
+| 1779 | Fixed an issue related to application visibility when the "Line of business" field is empty in the DevOps Secret Manager. |
+
+### Translation Fix
+| Item | Description |
+|------|-------------|
+| 2623 | Fixed the issue of the "I18N_EMPTY" string appearing on the DSM access groups screen. |
+| 2821 | Fixed spelling error on the Cryptographic Keys screen in portuguese. |
+
+## Cloud IAM
 
 No changes.
 
-### PEDM - Windows
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-| 3463 | Fixed error 'Error on receive request operation, please check the backend system log' when opening the agent. |
-| 3271 | Fixed error that displayed the message 'SQLite Error 10: disk I/O error' in the agent when attempting to synchronize policies or elevate privileges in applications. |
-| 3669 | Resolved an issue that caused the message "An error occurred while trying to access the database" when running the GRRF program through senhasegura.go agent. |
-| 3610 | Resolved issue where privilege elevation did not function properly on network shared drives when using senhasegura.go. |
-| 2363 | Resolved an issue where the emergency access workflow in GO Windows 3.31.0.3 and 3.31.1-7 did not grant the expected application access. |
-
-#### Product Updates
-
-| Item | Description |
-|---|---|
-| 3134 | Windows 11 added to the list of supported versions for core features. |
-
-### DSM (DevOps Secret Manager)
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-| 2818 | Fixed the problem that allowed a start time greater than the end time to be entered in the justification window when viewing the details of a secret with a user in an access group that requires justification.|
-
-#### Product Updates
-
-| Item | Description |
-|---|---|
-| 2779 | Adjusted the validation of credential names to allow the use of hyphens (“-”), in accordance with Azure rules and ensure the correct execution of automation that uses secrets with this character. |
-
-### Cloud IAM
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-| 3639 | Fixed the display of an error message during Google Cloud account creation in the Cloud IAM module. |
-
-### Executions
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-|2452|Fixed an error in the password change template in a web application using Selenium in the Safari browser.|
-
-#### Product Updates
-
-| Item | Description |
-|---|---|
-|2672|Added support for Kerberos authentication, using Windows RM to change passwords for local users.|
-
-### MySafe
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-| 2846|Fixed an inconsistency in MySafe reports where the id filter remained visible even after all filters were cleared.|
-| 2040|Fixed the issue on the MySafe homepage where the character ç would break when combined with a special character when creating an API secret with the said character in its name.|
-| 2840|Fixed an issue that caused an encryption error when querying notes longer than 970 characters. The limit is now 900 characters per note.|
-
-#### Product Updates
-
-| Item | Description |
-|---|---|
-| 2048 | Updated the MySafe logo to reflect the color scheme used in other senhasegura product logos, ensuring a cohesive and recognizable visual identity across the entire product line.|
-| 1786 | Added the API secrets item to the admin panel dashboards.|
-| 2925 | Adapted and unified the bulk import process to the tenant model..|
-
-#### New Feature
-
-| Item | Description |
-|---|---|
-| 27 | Added the ability to temporarily share items with users outside of MySafe. To use this feature, the connection with the senhasegura vault is necessary.|
-| 27 | Added the Sharing options screen within the Admin menu so that the administrator can configure external sharing of items and enter the base URL of the MySafe vault.|
-
-### MySafe extension
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-| 1957 | Fixed the issue where the MySafe extension would incorrectly suggest saving passwords on websites where the login fields were already populated by the extension itself.|
-
-#### Product Updates
-| Item | Description |
-|---|---|
-| 2388 | Added the possibility to integrate multi-factor authentication (MFA) tokens with passwords stored through the MySafe extension.|
-| 1753 | Removed the Edit option for users with view-only permissions for shared passwords.|
-| 1565 |Expanded the automatic detection of username and password fields in the MySafe extension to more websites. |
-
-#### Translation fix
-
-| Item | Description |
-|---|---|
-| 2508 | Fixed a typo in the word Search in the search field of the English version of the extension.|
-
-### Domum
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-|2491|Fixed error loading data in Grid Mode for third-party users.|
-
-#### Product Updates
-
-| Item | Description |
-|---|---|
-|2925|Adapted and unified the batch import process for the tenant model.|
-|2562|Created the GeoIP database execution log file.|
-|2007|Implemented generation of first access for limited users after batch import.|
-|3842| Corrected request filtering, including LFI (Local File Inclusion) in the Domum Monitoring Center dashboard.
-
-#### New Feature
-
-| Item | Description |
-|---|---|
-|2099|Added new nomenclatures, Limited User and Full User, for user classification within the platform.|
-
-#### Translation fix
-| Item | Description |
-|---|---|
-|2790|Fixed the translation error in Access Reasons, all fields were changed to the default in English.|
-|3268|Fixed the error where some strings in the module didn't display the message correctly.|
-
-### Certificate Manager
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-| 3328 | Fixed an issue where senhasegura was unable to authenticate successfully with Entrust during certificate lifecycle management (CLM) processes. |
-
-#### Product Updates
-
-| Item | Description |
-|---|---|
-| 3329 | Improved the Entrust integration that caused certain signing profiles to malfunction, preventing the issuance of certificates. |
-
-#### New Feature
-
-| Item | Description |
-|---|---|
-| 2853 | The option to use the Network Connector for communication with Certificate Authorities in the Certificate Manager has been added. Now, certificates generated and signed by GlobalSign and DigiCert can be signed without the need for the Network Connector. |
-
-#### Translation fix
-
-| Item | Description |
-|---|---|
-|2573| Fixed a translation issue where the word Request in the actions menu (three dots) of the Certificates > Requests section wasn’t being translated into Portuguese.|
-
-### Mobile App
-
-#### Bug fixes
-
-| Item | Description |
-|---|---|
-| 3336 | Fixed the issue that generated an invalid QR code due to the absence of a registered email. Now, if the user doesn't have an email associated with their account, they will be notified about the need to register one.|
-
-#### Product Updates
-
-| Item | Description |
-|---|---|
-| 2388 | Added the possibility to integrate multi-factor authentication (MFA) tokens with passwords stored in MySafe through the senhasegura mobile app.|
-| 2230 | Added the Can't read it? Click here to type the code link on the senhasegura mobile app home screen. This feature provides an alternative for users who have difficulty using the camera, allowing them to manually enter the code if they can't scan the QR code. |
-
-### Network Connector
-
-#### New Feature
-
-| Item | Description |
-|---|---|
-| 2404 | Added Integration of the Network Connector with Multi-Tenant functionality. |
-
-### Arbitrator
+## Executions
 
 No changes.
 
-### Load Balancer
+## MySafe
+
+### Bug Fixes
+| Item | Description |
+|------|-------------|
+| 1796 | Fixed the issue that erroneously allowed users with viewing permissions to mark checkboxes for files and notes. This problem was causing errors during the execution of batch actions on files and notes. |
+| 1776 | Fixed the issue that was preventing the unsharing of notes via API. |
+| 1799 | Added the Tags and Notes parameters when retrieving, creating, and updating API secrets via API. |
+| 1888 | Added the Username search filter on the Password details screen. |
+| 1675 | Added the batch action buttons Enable, Disable and Share on the API secrets screen. |
+| 1504 | Renamed the API keys menu to Access keys, accessible through MySafe > Integrations > Access keys. |
+| 1514 | Added the ID field in the Passwords, API secrets, Files, Notes, and Audit reports so that users can consult it when using the MySafe APIs. |
+| 761 | Renamed the Delete button to Disable on the MySafe home screen for password deactivation. |
+
+### Product Updates
+| Item | Description |
+|------|-------------|
+| 24 | Added the possibility to integrate multifactor authentication (MFA) tokens with passwords stored in MySafe. Available for senhasegura web and API. |
+
+## MySafe extension
 
 No changes.
 
+## Security
 
-* * *
+### Item
+| Description |
+|-------------|
+| 1948 | Fixed an issue that was allowing users to access other users' sensitive information in a specific scenario. |
 
-## Other versions
+## Domum
 
-You can see the older documentation versions here.
+### Bug Fixes
+| Item | Description |
+|------|-------------|
+| 1783 | Fixed error when trying to create or edit remote access through Domum, the column that displayed the device type was incorrectly changed to "username". |
+| 1941, 1867 | Fixed the incorrect group filter name in the internal user groups report from "vendors" to "group". |
+| 921 | Fixed on the Domum dashboard of Internal User Group, in the Behavior field, after clicking on Users to view the internal users report, it now correctly displays the internal users report instead of the third-party users report. |
+| 1899 | Fixed the incorrect translation in the date fields, "Start Date" and "End Date", in the access request reports. |
+
+### Product Updates
+| Item | Description |
+|------|-------------|
+| 2193 | The GeoIP base of Domum is now updated daily. |
+| 926 | Removed "Start date" and "Due date" fields from Domum > Dashboard > Internal user groups as this entity does not have these attributes. |
+| 1336 | Updated dashboards located in "Domum > Dashboards > Vendors / Third-party users / Internal users groups / Internal users". The term "Access" in the line chart has been replaced with "Sessions". |
+| 1759 | The custom attribute thirdPartyVendor has been removed from the group provisioning XML via SCIM. This change is due to new authentication improvements, which have made this attribute unnecessary. When registering a new provider, users should now utilize the field labeled "Add users to Domum?". |
+
+## Certificate Manager
+
+### Product Updates
+| Item | Description |
+|------|-------------|
+| 441 | Updated Certificate Manager to allow users to import SSL certificates through API requests. |
+| 1662 | Added the capability to import A1 certificates in .PFX format. |
+
+### New Feature
+| Item | Description |
+|------|-------------|
+| 300 | Added a new feature integrating the Entrust Certificate Authority (CA) through API. This new feature allows signing certificates using the Entrust CA as a provider. |
+
+## Change Audit
+
+### Product Updates
+| Item | Description |
+|------|-------------|
+| 2364 | Change Audit now also audits sessions using the Proxy Terminal. |
+
+## Mobile App
+
+No changes.
+
+## Network Connector
+
+No changes.
+
+## Arbitrator
+
+No changes.
+
+## Load Balancer
+
+No changes.

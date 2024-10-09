@@ -1,20 +1,28 @@
-const config = {
+// docusaurus.config.js
+
+module.exports = {
   title: 'senhasegura',
-  tagline: 'Docs',
-  url: 'https://senhasegura.com',
+  tagline: '3.32 testing',
+  url: 'https://gui-testes-hiab.seguradocus.pages.dev/', // Altere para a URL oficial
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'senhasegura',
-  projectName: 'senhasegura-docs',
+  organizationName: 'senhasegura', // Nome da sua organização
+  projectName: 'senhaseguradocs', // Nome do seu repositório
 
   i18n: {
-    defaultLocale: 'en', // Define inglês como padrão
-    locales: ['en', 'pt'], // Adiciona Português (pt) como uma opção
+    defaultLocale: 'en', // Locale padrão
+    locales: ['en', 'pt-BR'], // Locales disponíveis
     localeConfigs: {
-      pt: {
+      en: {
+        label: 'English',
+      },
+      'pt-BR': {
         label: 'Português',
+        path: 'pt-BR',
+        direction: 'ltr',
+        htmlLang: 'pt-BR',
       },
     },
   },
@@ -23,48 +31,66 @@ const config = {
     navbar: {
       title: 'senhasegura',
       logo: {
-        alt: 'senhasegura',
+        alt: 'senhasegura Logo',
         src: 'img/senhasegura.png',
       },
       items: [
-        {to: 'docs/intro', label: 'Docs', position: 'left'},
+        { to: 'docs/intro', label: 'Documentation', position: 'left' },
+        { to: 'api/', label: 'senhasegura API', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',
         },
-        {
-          type: 'docsVersionDropdown',
-          position: 'right',
-        },
       ],
     },
-  },
+    footer: {
+      style: 'dark',
+      copyright: `Copyright © ${new Date().getFullYear()} senhasegura. Built with Docusaurus.`,
+    },
+  }, 
 
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/seu-org/seu-projeto/edit/main/website/',
-          lastVersion: 'current',
-          versions: {
-            current: {
-              label: '3.33',
-              path: 'current',
-            },
-            '3.32': {
-              label: '3.32',
-              path: 'version-3.32',
-            },
-          },
+          sidebarPath: require.resolve('./sidebarsAuto.js'), // Configuração da sidebar automática
+          editUrl: 'https://github.com/senhasegura/senhaseguradocs/edit/main/website/',
+        },
+        blog: {
+          showReadingTime: true,
+          editUrl: 'https://github.com/senhasegura/senhaseguradocs/edit/main/website/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css'), // Verifique se esse caminho está correto
+        },
+      },
+    ],
+    // Redocusaurus config
+    [
+      'redocusaurus',
+      {
+        // Configuração para carregar arquivos OpenAPI
+        specs: [
+          {
+            spec: 'api/index.yaml', // Caminho para o arquivo OpenAPI
+            route: '/api/',
+          },
+        ],
+        // Configuração de tema do Redoc
+        theme: {
+          primaryColor: '#1890ff',
         },
       },
     ],
   ],
-};
 
-module.exports = config;
+  plugins: [
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'UA-XXXXXXX-X', // Substitua pelo seu Google Analytics ID
+      },
+    ],
+  ],
+};

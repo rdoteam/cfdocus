@@ -73,4 +73,4 @@ To view information about the secret, click on the magnifying glass icon and you
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

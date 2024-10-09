@@ -4,8 +4,8 @@
 
 1. You should have Kubernetes properly installed.
 2. You should have the kubectl tool installed.
-3. Follow the installation steps provided in the Getting started - External Secrets Operator documentation.
-4. Follow the creation and configuration steps specified in the senhasegura DevOps Secrets Management (DSM) provider documentation.
+3. Follow the installation steps provided in the [Getting started - External Secrets Operator](https://external-secrets.io/v0.6.1/guides/getting-started/) documentation.
+4. Follow the creation and configuration steps specified in the [senhasegura DevOps Secrets Management (DSM)](https://external-secrets.io/v0.6.1/provider/senhasegura-dsm/) provider documentation.
 
 ## Configuration in the senhasegura
 
@@ -19,7 +19,7 @@
 8. Fill in the `.yml` file with the **Client ID** and **Client Secret** values you copied earlier.
 9. Execute the following command: `kubectl apply -f nomedoarquivo.ymlc`
 
-In Kubernetes, follow the steps in the senhasegura documentation on External Secrets, available at senhasegura DevOps Secrets Management (DSM).
+In Kubernetes, follow the steps in the senhasegura documentation on External Secrets, available at [senhasegura DevOps Secrets Management (DSM)](https://external-secrets.io/v0.6.1/provider/senhasegura-dsm/).
 
 By following these steps, the integration between DSM and Kubernetes via External Secrets will be configured, guaranteeing secure and effective management of the sensitive information needed to operate your environment
 
@@ -36,4 +36,4 @@ By following these steps, the integration between DSM and Kubernetes via Externa
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

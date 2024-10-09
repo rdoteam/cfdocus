@@ -60,4 +60,4 @@ You can view the tasks contained within a bulk operation. This is useful for kno
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

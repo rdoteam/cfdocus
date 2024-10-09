@@ -90,4 +90,4 @@ To manage the automatic provisioning of secrets, follow the steps below:
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

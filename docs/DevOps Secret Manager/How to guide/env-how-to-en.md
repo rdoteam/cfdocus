@@ -34,4 +34,4 @@ In the **New environment** window, in the bottom left corner, you can see the us
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

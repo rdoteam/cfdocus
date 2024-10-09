@@ -8,4 +8,4 @@ Profiles play a crucial role in automated credential management. They enable org
 
 ---
 
-Do you still have questions? Reach out to the senhasegura Community.
+Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

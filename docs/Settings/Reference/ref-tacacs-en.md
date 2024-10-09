@@ -1,4 +1,4 @@
-# Reference for TACACS servers
+# TACACS servers
 
 This document provides an overview of the functionality on TACACS servers.
 
@@ -17,7 +17,7 @@ This document provides an overview of the functionality on TACACS servers.
 | **New**             | Represented by the plus icon, it opens the**TACACS Server** screen.                                                                                                                            |
 | **Print report**    | Represented by the printer icon, it opens a new page for printing the report.                                                                                                                        |
 | **Export CSV**      | Represented by the paper sheet icon, it downloads the report.                                                                                                                                        |
-| **Schedule report** | Represented by the clock icon, it opens theSchedule report form. |
+| **Schedule report** | Represented by the clock icon, it opens the[Schedule report](https://docs.senhasegura.io/v3-31/docs/en/general-information-how-to-issue-download-and-schedule-device-reports#scheduling-reports) form. |
 
 ## Search fields
 
