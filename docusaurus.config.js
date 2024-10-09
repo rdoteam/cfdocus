@@ -1,28 +1,20 @@
-// docusaurus.config.js
-
-module.exports = {
+const config = {
   title: 'senhasegura',
-  tagline: '3.32 testing',
-  url: 'https://example.com', // Altere para a URL apropriada
+  tagline: 'Docs',
+  url: 'https://senhasegura.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
-  organizationName: 'senhasegura', // Nome da sua organização
-  projectName: 'senhaseguradocs', // Nome do seu repositório
+  organizationName: 'senhasegura',
+  projectName: 'senhasegura-docs',
 
   i18n: {
-    defaultLocale: 'en', // Locale padrão
-    locales: ['en', 'pt-BR'], // Outros locales disponíveis
+    defaultLocale: 'en', // Define inglês como padrão
+    locales: ['en', 'pt'], // Adiciona Português (pt) como uma opção
     localeConfigs: {
-      en: {
-        label: 'English',
-      },
-      'pt-BR': {
+      pt: {
         label: 'Português',
-        path: 'pt-BR',
-        direction: 'ltr',
-        htmlLang: 'pt-BR',
       },
     },
   },
@@ -31,35 +23,41 @@ module.exports = {
     navbar: {
       title: 'senhasegura',
       logo: {
-        alt: 'senhasegura Logo',
+        alt: 'senhasegura',
         src: 'img/senhasegura.png',
       },
       items: [
-        { to: 'docs/intro', label: 'Documentation', position: 'left' },
+        {to: 'docs/intro', label: 'Docs', position: 'left'},
         {
           type: 'localeDropdown',
           position: 'right',
         },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+        },
       ],
     },
-    footer: {
-      style: 'dark',
-      // O campo `defaultLocale` não pertence ao `footer`
-      copyright: `Copyright © ${new Date().getFullYear()} senhasegura. Built with Docusaurus.`,
-    },
-  }, 
+  },
 
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebarsAuto.js'), // Usar configuração da sidebar automática
-          editUrl: 'https://github.com/your-org/your-repo/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/your-org/your-repo/edit/main/website/blog/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: 'https://github.com/seu-org/seu-projeto/edit/main/website/',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '3.33',
+              path: 'current',
+            },
+            '3.32': {
+              label: '3.32',
+              path: 'version-3.32',
+            },
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -68,3 +66,5 @@ module.exports = {
     ],
   ],
 };
+
+module.exports = config;
