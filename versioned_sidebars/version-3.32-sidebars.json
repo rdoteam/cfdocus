@@ -1,0 +1,76 @@
+{
+  "docs": [
+    {
+      "type": "category",
+      "label": "DevOps Secret Manager",
+      "items": [
+        "DevOps Secret Manager/Explanation/about-en",
+        "DevOps Secret Manager/Explanation/about-profiles-en",
+        "DevOps Secret Manager/Explanation/cicd_about-en",
+        "DevOps Secret Manager/Explanation/dash-about-en",
+        "DevOps Secret Manager/Explanation/dyn_pro_about-en",
+        "DevOps Secret Manager/Explanation/encription_about-en",
+        "DevOps Secret Manager/Explanation/plugins_about-en",
+        "DevOps Secret Manager/Explanation/secrets_about-en",
+        {
+          "type": "category",
+          "label": "How to Guides",
+          "items": [
+            "DevOps Secret Manager/How to guide/About applications and authorizations per application",
+            "DevOps Secret Manager/How to guide/Authenticators-en",
+            "DevOps Secret Manager/How to guide/How to manage an application in DevOps Secret Manager"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Reference",
+          "items": [
+            "DevOps Secret Manager/Reference/Applications - Reference",
+            "DevOps Secret Manager/Reference/Authorization by application - Reference",
+            "DevOps Secret Manager/Reference/bulk-ref-en"
+          ]
+        },
+        "DevOps Secret Manager/about-dsm"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Multi-Tenant",
+      "items": [
+        "Multi-tenant/about-multitenant",
+        "Multi-tenant/howto-multitenant",
+        "Multi-tenant/ref-multitenant"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Settings",
+      "items": [
+        {
+          "type": "category",
+          "label": "Explanation",
+          "items": [
+            "Settings/Explanation/EN_EXP_ITSM",
+            "Settings/Explanation/SAML-en",
+            "Settings/Explanation/aboutiga-en",
+            "Settings/Explanation/intro-ad-en",
+            "Settings/Explanation/mfa-intro-en"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "How to Guides",
+          "items": [
+            "Settings/How to guides/EN_HOW_HistoricoExportacao",
+            "Settings/How to guides/EN_HOW_Logo",
+            "Settings/How to guides/EN_HOW_MFA_Provedores"
+          ]
+        }
+      ]
+    },
+    "changelog",
+    "intro",
+    "upgrade_notes",
+    "use-cases"
+  ]
+}

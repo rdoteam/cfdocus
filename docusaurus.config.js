@@ -1,19 +1,17 @@
-// docusaurus.config.js
-
 module.exports = {
-  title: 'senhasegura',
-  tagline: '3.32 testing',
+  title: 'Bem vindo ao senhasegura Help Center',
+  tagline: 'Documentação oficial das soluções senhasegura.',
   url: 'https://gui-testes-hiab.seguradocus.pages.dev/', // Altere para a URL oficial
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'senhasegura', // Nome da sua organização
-  projectName: 'senhaseguradocs', // Nome do seu repositório
+  organizationName: 'senhasegura',
+  projectName: 'senhaseguradocs',
 
   i18n: {
-    defaultLocale: 'en', // Locale padrão
-    locales: ['en', 'pt-BR'], // Locales disponíveis
+    defaultLocale: 'pt-BR',
+    locales: ['en', 'pt-BR'],
     localeConfigs: {
       en: {
         label: 'English',
@@ -35,8 +33,12 @@ module.exports = {
         src: 'img/senhasegura.png',
       },
       items: [
-        { to: 'docs/intro', label: 'Documentation', position: 'left' },
+        { to: 'docs/intro', label: 'Documentação', position: 'left' },
         { to: 'api/', label: 'senhasegura API', position: 'left' },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+        },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -54,15 +56,19 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebarsAuto.js'), // Configuração da sidebar automática
+          sidebarPath: require.resolve('./sidebars.js'), // Atualize o caminho do arquivo
           editUrl: 'https://github.com/senhasegura/senhaseguradocs/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/senhasegura/senhaseguradocs/edit/main/website/blog/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          versions: {
+            current: {
+              label: '3.33',
+              path: '3.33',
+            },
+          },
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'), // Verifique se esse caminho está correto
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
@@ -70,14 +76,12 @@ module.exports = {
     [
       'redocusaurus',
       {
-        // Configuração para carregar arquivos OpenAPI
         specs: [
           {
-            spec: 'api/index.yaml', // Caminho para o arquivo OpenAPI
+            spec: 'api/index.yaml',
             route: '/api/',
           },
         ],
-        // Configuração de tema do Redoc
         theme: {
           primaryColor: '#1890ff',
         },
@@ -89,7 +93,7 @@ module.exports = {
     [
       '@docusaurus/plugin-google-analytics',
       {
-        trackingID: 'UA-XXXXXXX-X', // Substitua pelo seu Google Analytics ID
+        trackingID: 'UA-XXXXXXX-X',
       },
     ],
   ],

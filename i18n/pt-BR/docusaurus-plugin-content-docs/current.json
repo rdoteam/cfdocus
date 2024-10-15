@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.DevOps Secret Manager": {
+    "message": "DevOps Secret Manager",
+    "description": "The label for category DevOps Secret Manager in sidebar docs"
+  },
+  "sidebar.docs.category.APIS": {
+    "message": "APIS",
+    "description": "The label for category APIS in sidebar docs"
+  },
+  "sidebar.docs.category.Explanation": {
+    "message": "Explanation",
+    "description": "The label for category Explanation in sidebar docs"
+  },
+  "sidebar.docs.category.How to guide": {
+    "message": "How to guide",
+    "description": "The label for category How to guide in sidebar docs"
+  },
+  "sidebar.docs.category.Reference": {
+    "message": "Reference",
+    "description": "The label for category Reference in sidebar docs"
+  },
+  "sidebar.docs.category.Multi-tenant": {
+    "message": "Multi-tenant",
+    "description": "The label for category Multi-tenant in sidebar docs"
+  },
+  "sidebar.docs.category.Settings": {
+    "message": "Settings",
+    "description": "The label for category Settings in sidebar docs"
+  },
+  "sidebar.docs.category.How to guides": {
+    "message": "How to guides",
+    "description": "The label for category How to guides in sidebar docs"
+  },
+  "sidebar.docs.category.ITSM": {
+    "message": "ITSM",
+    "description": "The label for category ITSM in sidebar docs"
+  },
+  "sidebar.docs.category.Providers": {
+    "message": "Providers",
+    "description": "The label for category Providers in sidebar docs"
+  }
+}

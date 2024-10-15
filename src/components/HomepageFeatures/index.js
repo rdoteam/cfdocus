@@ -11,7 +11,7 @@ const FeatureList = [
     link: '/docs/changelog', // Adiciona o link correspondente
     description: (
       <>
-       Access the changelog for the 3.32 version.
+       Acesse o changelog da versão 3.32.
       </>
     ),
   },
@@ -21,17 +21,17 @@ const FeatureList = [
     link: '/docs/upgrade_notes', // Adiciona o link correspondente
     description: (
       <>
-        Check the upgrade notes.
+        Upgrade notes.
       </>
     ),
   },
   {
-    title: 'About senhasegura',
+    title: 'Sobre o senhasegura',
     Img: '/img/desktop.png',
     link: '/docs/intro', // Adiciona o link correspondente
     description: (
       <>
-        Learn more about senhasegura.
+        Aprenda mais sobre o que é o senhasegura.
       </>
     ),
   },
