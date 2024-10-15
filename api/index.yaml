@@ -1,8 +1,7 @@
 openapi: 3.0.0
 info:
   title: senhasegura API Reference OAuth 2.0
-  description: API endpoints from the senhasegura API Reference OAuth 2.0 Postman
-    collection
+  description: API endpoints from the senhasegura API Reference OAuth 2.0 Postman collection
   version: 1.0.0
 servers:
 - url: '{{senhasegura_url}}'
@@ -37,36 +36,31 @@ paths:
         required: true
         schema:
           type: string
-        description: '[Obrigatório] Tipo do dispositivo. Deve ser um tipo já cadastrado
-          no senhasegura.'
+        description: '[Obrigatório] Tipo do dispositivo. Deve ser um tipo já cadastrado no senhasegura.'
       - name: vendor
         in: query
         required: true
         schema:
           type: string
-        description: '[Obrigatório] Fabricante do dispositivo. Será criado caso não
-          exista no senhasegura'
+        description: '[Obrigatório] Fabricante do dispositivo. Será criado caso não exista no senhasegura'
       - name: model
         in: query
         required: true
         schema:
           type: string
-        description: '[Obrigatório] Modelo do dispositivo. Será criado caso não exista
-          no senhasegura'
+        description: '[Obrigatório] Modelo do dispositivo. Será criado caso não exista no senhasegura'
       - name: site
         in: query
         required: true
         schema:
           type: string
-        description: '[Obrigatório] Localidade do dispositivo. Será criado caso não
-          exista no senhasegura.'
+        description: '[Obrigatório] Localidade do dispositivo. Será criado caso não exista no senhasegura.'
       - name: device_domain
         in: query
         required: true
         schema:
           type: string
-        description: '[Opcional] Domínio do dispositivo. Sõ são aceitos domínios previmente
-          cadastrados.'
+        description: '[Opcional] Domínio do dispositivo. Só são aceitos domínios previamente cadastrados.'
       - name: device_tags
         in: query
         required: true
@@ -144,8 +138,7 @@ paths:
         required: false
         schema:
           type: string
-        description: Identificador único da credencial. Obrigatório somente para edição
-          de credencial existente.
+        description: Identificador único da credencial. Obrigatório somente para edição de credencial existente.
       - name: username
         in: query
         required: false
@@ -187,70 +180,61 @@ paths:
         required: false
         schema:
           type: string
-        description: '[Obrigatório] Hostname do dispositivo ao qual a credencial está
-          atribuida.'
+        description: '[Obrigatório] Hostname do dispositivo ao qual a credencial está atribuída.'
       - name: ip
         in: query
         required: false
         schema:
           type: string
-        description: '[Obrigatório] IP do dispositivo ao qual a credencial está atribuida.'
+        description: '[Obrigatório] IP do dispositivo ao qual a credencial está atribuída.'
       - name: type
         in: query
         required: false
         schema:
           type: string
-        description: '[Opcional] Somente para permitir a criação de um dispositivo
-          junto da credencial'
+        description: '[Opcional] Somente para permitir a criação de um dispositivo junto da credencial'
       - name: vendor
         in: query
         required: false
         schema:
           type: string
-        description: '[Opcional] Somente para permitir a criação de um dispositivo
-          junto da credencial'
+        description: '[Opcional] Somente para permitir a criação de um dispositivo junto da credencial'
       - name: model
         in: query
         required: false
         schema:
           type: string
-        description: '[Opcional] Somente para permitir a criação de um dispositivo
-          junto da credencial'
+        description: '[Opcional] Somente para permitir a criação de um dispositivo junto da credencial'
       - name: site
         in: query
         required: false
         schema:
           type: string
-        description: '[Opcional] Somente para permitir a criação de um dispositivo
-          junto da credencial'
+        description: '[Opcional] Somente para permitir a criação de um dispositivo junto da credencial'
       - name: device_domain
         in: query
         required: false
         schema:
           type: string
-        description: '[Opcional] Somente para permitir a criação de um dispositivo
-          junto da credencial'
+        description: '[Opcional] Somente para permitir a criação de um dispositivo junto da credencial'
       - name: device_tags
         in: query
         required: false
         schema:
           type: string
-        description: '[Opcional] Somente para permitir a criação de um dispositivo
-          junto da credencial'
+        description: '[Opcional] Somente para permitir a criação de um dispositivo junto da credencial'
       - name: connectivities
         in: query
         required: false
         schema:
           type: string
-        description: '[Opcional] Somente para permitir a criação de um dispositivo
-          junto da credencial'
+        description: '[Opcional] Somente para permitir a criação de um dispositivo junto da credencial'
       - name: session_remote_conig
         in: query
         required: false
         schema:
           type: string
-        description: '[Opcional] Somente para permitir a criação de um dispositivo
-          junto da credencial'
+        description: '[Opcional] Somente para permitir a criação de um dispositivo junto da credencial'
       - name: content
         in: query
         required: false
@@ -268,1353 +252,116 @@ paths:
       responses:
         '200':
           description: Successful response
-  /iso/pam/credential/custody/{{credential_id}}:
-    delete:
-      summary: Release Credential Custody by ID
-      operationId: ReleaseCredentialCustodybyID
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/pam/info/{{info_id}}:
-    get:
-      summary: Access Info by ID
-      operationId: AccessInfobyID
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    delete:
-      summary: Delete Info by ID
-      operationId: DeleteInfobyID
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/pam/info:
-    post:
-      summary: Create Info
-      operationId: CreateInfo
-      parameters:
-      - name: content
-        in: query
-        required: true
-        schema:
-          type: string
-        description: '[Obrigatório] Conteúdo em texto a ser protegido. Não é possível
-          realizar upload de arquivos.'
-      - name: identifier
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Identificador único da informação utilizada para identificação
-          posterior.
-      - name: name
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Nome da informação que será apresentada nas telas do senhasegura®
-          .
-      - name: type
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Tipo de informação. Deve ser um tipo já cadastrado
-      responses:
-        '200':
-          description: Successful response
-  /iso/session/drop/018d3131-0bf6-71c2-be17-999f062b8312:
-    delete:
-      summary: Terminate Session by ID
-      operationId: TerminateSessionbyID
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/remote/session:
-    post:
-      summary: New Proxy Session
-      operationId: NewProxySession
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/session/remotesessions:
-    get:
-      summary: Get All Sessions Info
-      operationId: GetAllSessionsInfo
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/session/remotesessions/1076:
-    get:
-      summary: Get Session Info by ID
-      operationId: GetSessionInfobyID
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/pam/key/108:
-    get:
-      summary: List key by ID
-      operationId: ListkeybyID
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
   /iso/pam/key:
     post:
-      summary: Create or Update Key
-      operationId: CreateorUpdateKey
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/pam/key/109:
-    delete:
-      summary: Disable Key by ID
-      operationId: DisableKeybyID
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    put:
-      summary: Enable Key by ID
-      operationId: EnableKeybyID
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/coge/sessoes/{{protocol_type}}:
-    get:
-      summary: Sessions
-      operationId: Sessions
-      parameters:
-      - name: ativo
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Forneça 1 para indicar que apenas sessões ativas deva ser retornado.
-      - name: data1
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Data de início do período de consulta.
-      - name: data2
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Data de término do período de consulta.
-      - name: hostname
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Hostname do dispositivo a ser consultado.
-      - name: userCredencial
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Username da credencial utilizada a ser consultada.
-      - name: username
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Username do usuário senhasegura® que realizou a sessão.
-      responses:
-        '200':
-          description: Successful response
-  /iso/coge/risco/{{risk_type}}:
-    get:
-      summary: Risk
-      operationId: Risk
-      parameters:
-      - name: data1
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Data de início do período de consulta.
-      - name: data2
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Data de término do período de consulta.
-      - name: hostname
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Hostname do dispositivo a ser consultado.
-      - name: userCredencial
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Username da credencial utilizada a ser consultada.
-      - name: username
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Username do usuário senhasegura® que realizou a sessão.
-      - name: protocol
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Utilize se desejar filtrar por um protocolo específico
-      responses:
-        '200':
-          description: Successful response
-  /iso/coge/credenciais/{{credential_type}}:
-    get:
-      summary: Credentials
-      operationId: Credentials
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/certificado/request/listar/{{request_id}}:
-    get:
-      summary: List All Requests
-      operationId: ListAllRequests
-      parameters:
-      - name: codigo_request
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código de um Request já criado.
-      - name: status_request
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código de um status de um request.
-      - name: tipo_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tipo do certificado.
-      - name: tipo_domínio
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tipo do domínio do certificado.
-      - name: organização
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código da organização. Deverá ser informado o código de uma organização
-          cadastrada no senhasegura® .
-      - name: nome_comum
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Nome comum do certificado.
-      - name: san
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Subject Alternative Name. Poderá informar mais de 1 separados
-          por vírgula.
-      - name: tags
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tags de identificação do certificado. Poderá informar mais de
-          1 separados por vírgula.
-      - name: criptografia
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Algoritmo de criptografia.
-      - name: tamanho_chave_criptografia
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tamanho da chave de criptografia.
-      - name: algoritmo_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Algoritmo de assinatura. Se a criptografia escolhida for DSA,
-          será permitido apenas o uso de SHA256.
-      - name: validade
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tempo de validade do certificado em dias.
-      - name: senha_chave
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Senha da chave do certificado.
-      - name: senha_revogação
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Senha de revogação do certificado.
-      - name: ambientes
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Ambientes do certificado, separados por vírgula
-      - name: sistemas
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Sistemas do certificado, separados por vírgula
-      - name: projeto
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Projeto do certificado no request.
-      - name: ip_externo
-        in: query
-        required: false
-        schema:
-          type: string
-        description: IP externo do certificado no request.
-      - name: ip_hostname
-        in: query
-        required: false
-        schema:
-          type: string
-        description: IP ou hostname do certificado no request.
-      - name: responsavel
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código do responsável pelo request e pelo certificado. Deverá
-          ser um usuário cadastrado no senhasegura® .
-      - name: offset
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Número base da contagem de registros pela paginação.
-      - name: limit
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Número de registros na paginação.
-      responses:
-        '200':
-          description: Successful response
-  /iso/certificado/listar/{{certificate_id}}:
-    get:
-      summary: List All Certificates
-      operationId: ListAllCertificates
-      parameters:
-      - name: codigo_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código de um certificado já criado no senhasegura.
-      - name: status_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código de um status de um certificado.
-      - name: ativo
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Estado do certificado no senhasegura.
-      - name: inicio_validade
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Data de início da validade.
-      - name: fim_validade
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Data de fim da validade.
-      - name: origem_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Origem do certificado no senhasegura® .
-      - name: tipo_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tipo do certificado.
-      - name: tipo_domínio
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tipo do domínio do certificado.
-      - name: organização
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código da organização. Deverá ser informado o código de uma organização
-          cadastrada no senhasegura® .
-      - name: nome_comum
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Nome comum do certificado.
-      - name: san
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Subject Alternative Name. Poderá informar mais de 1 separados
-          por vírgula.
-      - name: tags
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tags de identificação do certificado. Poderá informar mais de
-          1 separados por vírgula.
-      - name: criptografia
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Algoritmo de criptografia.
-      - name: tamanho_chave_criptografia
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tamanho da chave de criptografia.
-      - name: algoritmo_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Algoritmo de assinatura. Se a criptografia escolhida for DSA,
-          será permitido apenas o uso de SHA256.
-      - name: validade
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tempo de validade do certificado em dias.
-      - name: senha_chave
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Senha da chave do certificado.
-      - name: senha_revogação
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Senha de revogação do certificado.
-      - name: ambientes
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Ambientes do certificado, separados por vírgula
-      - name: sistemas
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Sistemas do certificado, separados por vírgula
-      - name: projeto
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Projeto do certificado no request.
-      - name: ip_externo
-        in: query
-        required: false
-        schema:
-          type: string
-        description: IP externo do certificado no request.
-      - name: ip_hostname
-        in: query
-        required: false
-        schema:
-          type: string
-        description: IP ou hostname do certificado no request.
-      - name: auto_assinado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Indica se é auto-assinado.
-      - name: ca
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código da CA responsável pela assinatura request.
-      - name: responsavel
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código do responsável pelo request e pelo certificado. Deverá
-          ser um usuário cadastrado no senhasegura® .
-      - name: offset
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Número base da contagem de registros pela paginação.
-      - name: limit
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Número de registros na paginação.
-      responses:
-        '200':
-          description: Successful response
-  /iso/cert/publicar/listar/{{publishing_id}}:
-    get:
-      summary: List All Publishings
-      operationId: ListAllPublishings
-      parameters:
-      - name: codigo_publicacao
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código da publicação.
-      - name: codigo_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código do certificado a ser publicado.
-      - name: codigo_perfil_publicacao
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código do perfil de publicação.
-      - name: data_criacao
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Data de cadastro da publicação
-      - name: processado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Status do processamento da publicação.
-      - name: erro
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Status de erro da publicação.
-      - name: motivo
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código do motivo da publicação.
-      - name: gmud
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código do ITSM.
-      - name: dispositivo
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código do dispositivo da publicação.
-      - name: offset
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Número base da contagem de registros pela paginação.
-      - name: limit
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Número de registros na paginação.
-      responses:
-        '200':
-          description: Successful response
-  /iso/certificado/request/assinar/{{request_id}}:
-    get:
-      summary: Sign Request
-      operationId: SignRequest
-      parameters:
-      - name: codigo_request
-        in: query
+      summary: Criar chave SSH
+      description: |
+        Endpoint para criar uma nova chave SSH associada a dispositivos no senhasegura.
+      requestBody:
         required: true
-        schema:
-          type: string
-        description: Código do request a ser assinado.
-      - name: auto_assinado
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Indica se é auto-assinado.
-      - name: ca
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código da CA responsável pela assinatura request.
-      - name: justificativa
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Texto de até 1024 caracteres para justificativa.
-      - name: motivo
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código do motivo da assinatura. Deverá informar um código de
-          um motivo cadastrado no senhasegura®
-      - name: gmud
-        in: query
-        required: false
-        schema:
-          type: string
-        description: 30 caracteres para determinar o código do ITSM.
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                ip:
+                  type: string
+                  description: Endereço IP do dispositivo principal associado à chave SSH.
+                  example: "10.66.33.15"
+                hostname:
+                  type: string
+                  description: Nome do host do dispositivo principal associado à chave SSH.
+                  example: "w2016"
+                private_key:
+                  type: string
+                  description: |
+                    Chave privada necessária para autenticação do usuário.
+                    Exemplo: -----BEGIN OPENSSH PRIVATE KEY-----
+                public_key:
+                  type: string
+                  description: Chave pública que permite que servidores verifiquem a identidade do usuário associado à chave privada correspondente.
+                  example: ssh-ed25519 C1lZDI1NTE5AAawZxw...
+                identifier:
+                  type: string
+                  description: |
+                    String única definida pelo usuário ou pelo senhasegura para identificar a chave SSH.
+                    Se deixado em branco, um identificador UUID será gerado automaticamente.
+                  example: "sshkey3"
+                username:
+                  type: string
+                  description: Nome de usuário relacionado à chave no dispositivo.
+                  example: "dleite3"
+                enabled:
+                  type: boolean
+                  description: Indica se a chave SSH está ativa ou inativa.
+                  example: true
+                devices:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      hostname:
+                        type: string
+                        description: Nome do host do dispositivo adicional.
+                        example: "API device test"
+                tags:
+                  type: string
+                  description: Palavras-chave associadas à chave SSH.
+                  example: "mainsshkey"
+                key_name:
+                  type: string
+                  description: Nome da chave SSH definido pelo usuário.
+                  example: "teste4"
+                password:
+                  type: string
+                  description: Senha opcional que fornece uma camada extra de segurança à chave privada.
+                  example: "fkjwe87a5a8fa9a"
       responses:
-        '200':
-          description: Successful response
-  /iso/certificado/request/{{request_id}}:
-    post:
-      summary: Create/Update Request
-      operationId: Create/UpdateRequest
-      parameters:
-      - name: codigo_request
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código de um Request já criado. Caso o código não seja incluído
-          no parâmetro, um novo Request será criado.
-      - name: tipo_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tipo do certificado.
-      - name: tipo_domínio
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tipo do domínio do certificado.
-      - name: organização
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código da organização. Deverá ser informado o código de uma organização
-          cadastrada no senhasegura® .
-      - name: nome_comum
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Nome comum do certificado.
-      - name: san
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Subject Alternative Name. Será preenchido com o nome comum caso
-          não seja informado.
-      - name: tags
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tags de identificação do certificado. Será cadastrada novas tags
-          caso as informadas não existam.
-      - name: criptografia
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Algoritmo de criptografia.
-      - name: tamanho_chave_criptografia
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tamanho da chave de criptografia.
-      - name: algoritmo_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Algoritmo de assinatura. Se a criptografia escolhida for DSA,
-          será permitido apenas o uso de SHA256.
-      - name: validade
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Tempo de validade do certificado em dias.
-      - name: senha_chave
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Senha da chave do certificado.
-      - name: senha_revogação
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Senha de revogação do certificado.
-      - name: ambientes
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Ambientes do certificado. Serão cadastrados novos ambientes de
-          certificado caso os informados não existam.
-      - name: sistemas
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Sistemas do certificado. Serão cadastrados novos sistemas de
-          certificado caso os informados não existam.
-      - name: projeto
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Projeto do certificado no request.
-      - name: ip_externo
-        in: query
-        required: false
-        schema:
-          type: string
-        description: IP externo do certificado no request.
-      - name: ip_hostname
-        in: query
-        required: false
-        schema:
-          type: string
-        description: IP ou hostname do certificado no request.
-      - name: justificativa
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Justificativa do request com até 1024 caracteres.
-      - name: responsavel
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Código do responsável pelo request e pelo certificado. Deverá
-          ser um usuário cadastrado no senhasegura® .
-      - name: descricao
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Descrição do request com até 512 caracteres.
-      responses:
-        '200':
-          description: Successful response
-  /iso/cert/publicar:
-    post:
-      summary: Publish Certificate
-      operationId: PublishCertificate
-      parameters:
-      - name: codigo_certificado
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código do certificado a ser publicado.
-      - name: codigo_perfil_publicacao
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código do perfil de publicação. Será utilizado um perfil de publicação
-          previamente cadastrado no senhasegura® .
-      - name: justificativa
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Justificativa da publicação com até 1024 caracteres.
-      - name: motivo
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código do motivo da publicação. Deverá informar um código de
-          um motivo cadastrado no senhasegura® .
-      - name: gmud
-        in: query
-        required: false
-        schema:
-          type: string
-        description: 30 caracteres para determinar o código do ITSM.
-      - name: dispositivos
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Array com os códigos dos dispositivos onde o certificado deverá
-          ser publicado
-      responses:
-        '200':
-          description: Successful response
-  /iso/cert/perfil/apache:
-    post:
-      summary: Create/Update Publishing Profile Apache
-      operationId: Create/UpdatePublishingProfileApache
-      parameters:
-      - name: codigo_perfil
-        in: query
-        required: false
-        schema:
-          type: string
-        description: ''
-      - name: nome_perfil
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Nome do perfil a ser criado.
-      - name: site
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Site onde o certificado deverá ser instalado. Se não for informado,
-          o certificado será instalado no site padrão do Apache.
-      - name: config_path
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Endereço da configuração.
-      - name: porta
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Porta.
-      - name: codigo_credencial
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código da credencial a ser utilizada na publicação. Será utilizada
-          uma credencial previamente cadastrada o cofre. Esta informação será obrigatória
-          caso não seja informado um username.
-      - name: username
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Username que será utilizado para localizar credenciais para a
-          publicação. Esta informação será obrigatória caso não seja informado um
-          codigo_credencial
-      - name: dispositivos
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Array com os códigos dos dispositivos onde o certificado deverá
-          ser publicado
-      responses:
-        '200':
-          description: Successful response
-  /iso/cert/perfil/iis:
-    post:
-      summary: Create/Update Publishing Profile IIS
-      operationId: Create/UpdatePublishingProfileIIS
-      parameters:
-      - name: codigo_perfil
-        in: query
-        required: false
-        schema:
-          type: string
-        description: ''
-      - name: nome_perfil
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Nome do perfil a ser criado.
-      - name: site
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Site onde o certificado deverá ser instalado. Se não for informado,
-          o certificado será instalado no site padrão do Apache.
-      - name: cert_store
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Repositório de gerenciamento de certificados do IIS.
-      - name: porta
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Porta.
-      - name: codigo_credencial
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código da credencial a ser utilizada na publicação. Será utilizada
-          uma credencial previamente cadastrada o cofre. Esta informação será obrigatória
-          caso não seja informado um username.
-      - name: username
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Username que será utilizado para localizar credenciais para a
-          publicação. Esta informação será obrigatória caso não seja informado um
-          codigo_credencial
-      - name: dispositivos
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Array com os códigos dos dispositivos onde o certificado deverá
-          ser publicado
-      responses:
-        '200':
-          description: Successful response
-  /iso/cert/perfil/bigip:
-    post:
-      summary: Create/Update Publishing Profile F5 BigIP
-      operationId: Create/UpdatePublishingProfileF5BigIP
-      parameters:
-      - name: codigo_perfil
-        in: query
-        required: false
-        schema:
-          type: string
-        description: ''
-      - name: nome_perfil
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Nome do perfil a ser criado.
-      - name: nome_particao
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Nome da partição.
-      - name: nome_certificado
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Nome do certificado. Se já existir um certificado com o mesmo
-          nome configurado, na publicação ele será substituído.
-      - name: perfis_client_vips
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Array de Perfis SSL Client e seus VIPs.
-      - name: perfis_server_vips
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Array de Perfis SSL Server e seus VIPs.
-      - name: codigo_credencial
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código da credencial a ser utilizada na publicação. Será utilizada
-          uma credencial previamente cadastrada o cofre. Esta informação será obrigatória
-          caso não seja informado um username.
-      - name: username
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Username que será utilizado para localizar credenciais para a
-          publicação. Esta informação será obrigatória caso não seja informado um
-          codigo_credencial
-      - name: dispositivos
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Array com os códigos dos dispositivos onde o certificado deverá
-          ser publicado
-      responses:
-        '200':
-          description: Successful response
-  /iso/cert/perfil/was:
-    post:
-      summary: Create/Update Publishing Profile WebSphere WAS
-      operationId: Create/UpdatePublishingProfileWebSphereWAS
-      parameters:
-      - name: codigo_perfil
-        in: query
-        required: false
-        schema:
-          type: string
-        description: ''
-      - name: nome_perfil
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Nome do perfil a ser criado.
-      - name: key_db_path
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Endereço e nome da Key Database.
-      - name: key_db_password
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Senha do servidor.
-      - name: label
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Label do servidor.
-      - name: codigo_credencial
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Código da credencial a ser utilizada na publicação. Será utilizada
-          uma credencial previamente cadastrada o cofre. Esta informação será obrigatória
-          caso não seja informado um username.
-      - name: username
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Username que será utilizado para localizar credenciais para a
-          publicação. Esta informação será obrigatória caso não seja informado um
-          codigo_credencial
-      - name: dispositivos
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Array com os códigos dos dispositivos onde o certificado deverá
-          ser publicado
-      responses:
-        '200':
-          description: Successful response
-  /iso/dapp/application:
-    get:
-      summary: List All Secrets
-      operationId: ListAllSecrets
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    post:
-      summary: DAPP - Application
-      operationId: DAPP-Application
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/coe/dapp/provision:
-    post:
-      summary: Create Secret
-      operationId: CreateSecret
-      parameters:
-      - name: pod_name
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Nome da cápsula que irá usar a credencial.
-      - name: deploy
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Nome do deploy que irá usar a credencial.
-      - name: namespace
-        in: query
-        required: false
-        schema:
-          type: string
-        description: Namespace do contentor que irá utilizar a credencial
-      responses:
-        '200':
-          description: Successful response
-  /iso/dapp/deprovision:
-    post:
-      summary: Delete Secret
-      operationId: DeleteSecret
-      parameters:
-      - name: pod_name
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Nome da cápsula que irá usar a credencial.
-      - name: deploy
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Nome do deploy que irá usar a credencial.
-      - name: namespace
-        in: query
-        required: true
-        schema:
-          type: string
-        description: Namespace do contentor que usará a credencial.
-      - name: secret_id
-        in: query
-        required: true
-        schema:
-          type: string
-        description: ID do segredo
-      responses:
-        '200':
-          description: Successful response
-  /iso/cicd/variables:
-    post:
-      summary: CICD - Variables
-      operationId: CICD-Variables
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/sctm/secret:
-    post:
-      summary: SCTM - Secret
-      operationId: SCTM-Secret
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/dapp/application/authorization:
-    delete:
-      summary: DAPP - Authorization
-      operationId: DAPP-Authorization
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/user/related/8:
-    get:
-      summary: Retrieve a related user
-      operationId: Retrievearelateduser
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    delete:
-      summary: New Request
-      operationId: NewRequest
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/user/related:
-    get:
-      summary: Retrieve all related users
-      operationId: Retrieveallrelatedusers
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    post:
-      summary: New Request
-      operationId: NewRequest
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    put:
-      summary: Update related user
-      operationId: Updaterelateduser
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/secretapi:
-    get:
-      summary: get all api
-      operationId: getallapi
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    post:
-      summary: create api
-      operationId: createapi
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/secretapi/3:
-    get:
-      summary: get one  api
-      operationId: getoneapi
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/secretapi/update/1:
-    put:
-      summary: update api
-      operationId: updateapi
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/note:
-    post:
-      summary: active note
-      operationId: activenote
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    get:
-      summary: get all note
-      operationId: getallnote
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/note/inactive/3:
-    post:
-      summary: inactive note
-      operationId: inactivenote
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /api/mysafe/password:
-    get:
-      summary: get all password
-      operationId: getallpassword
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/password:
-    get:
-      summary: get one password
-      operationId: getonepassword
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-    post:
-      summary: create password
-      operationId: createpassword
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/password/update/10:
-    put:
-      summary: update password
-      operationId: updatepassword
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/note/7:
-    get:
-      summary: get one note
-      operationId: getonenote
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/mysafe/note/update/1:
-    put:
-      summary: update note
-      operationId: updatenote
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
-  /iso/oauth2/token:
-    post:
-      summary: New Request
-      operationId: NewRequest
-      parameters: []
-      responses:
-        '200':
-          description: Successful response
+        '201':
+          description: Chave SSH criada com sucesso
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  code:
+                    type: integer
+                    example: 201
+                  response:
+                    type: object
+                    properties:
+                      status:
+                        type: integer
+                        example: 201
+                      message:
+                        type: string
+                        example: "Key successfully registered!"
+                      error:
+                        type: boolean
+                        example: false
+                      error_code:
+                        type: integer
+                        example: 0
+                  key:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                        example: "92"
+                      identifier:
+                        type: string
+                        example: "sshkey3"
+                      devices:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            hostname:
+                              type: string
+                              example: "API device test"
+                            ip:
+                              type: string
+                              example: "10.66.33.20"
 components:
   securitySchemes:
     oauth2:
@@ -1624,4 +371,4 @@ components:
           tokenUrl: '{{senhasegura_url}}/iso/oauth2/token/'
           scopes: {}
 security:
-- oauth2: []
+  - oauth2: []
