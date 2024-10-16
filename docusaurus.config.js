@@ -1,3 +1,5 @@
+// docusaurus.config.js
+const path = require('path');
 module.exports = {
   title: 'Bem vindo ao senhasegura Help Center',
   tagline: 'Documentação oficial das soluções senhasegura.',
@@ -34,7 +36,7 @@ module.exports = {
       },
       items: [
         { to: 'docs/intro', label: 'Documentação', position: 'left' },
-        { to: 'api/', label: 'senhasegura API', position: 'left' },
+        { to: '/api/', label: 'senhasegura API', position: 'left' },
         {
           type: 'docsVersionDropdown',
           position: 'right',
@@ -47,16 +49,17 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} senhasegura. Built with Docusaurus.`,
+      copyright:
+        `Copyright © ${new Date().getFullYear()} senhasegura. Built with Docusaurus.`,
     },
-  }, 
+  },
 
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'), // Atualize o caminho do arquivo
+          sidebarPath: require.resolve('./sidebars.js'), // Certifique-se de que o caminho está correto
           editUrl: 'https://github.com/senhasegura/senhaseguradocs/edit/main/website/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -72,13 +75,13 @@ module.exports = {
         },
       },
     ],
-    // Redocusaurus config
+    // Mova o redocusaurus para a seção de presets
     [
       'redocusaurus',
       {
         specs: [
           {
-            spec: 'api/index.yaml',
+            spec: path.resolve(__dirname, 'api', 'index.yaml'),
             route: '/api/',
           },
         ],
