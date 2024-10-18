@@ -4,7 +4,7 @@ title: Bulk actions with secrets
 
 # Bulk actions with secrets
 
-Bulk actions for secrets within the senhasegura DevOps Secret Manager are accessible through **Grid Menu > DevOps Secret Manager > Secrets management > Secrets > Bulk action**, represented by the button at the bottom of the page.
+Bulk actions for secrets within the senhasegura DevOps Secret Manager are accessible through **Grid Menu &gt; DevOps Secret Manager &gt; Secrets management &gt; Secrets &gt; Bulk action**, represented by the button at the bottom of the page.
 
 The bulk action process is divided into 3 steps: *Choice of operation, Choice of secrets,* and *Confirmation*.
 

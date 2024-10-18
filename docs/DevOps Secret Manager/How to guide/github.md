@@ -16,7 +16,7 @@ To integrate senhasegura DSM with GitHub Actions, using the DSM CLI, follow the 
 
 1. Access a project from your GitHub account.
 2. Add the executable, the configuration file, and, optionally, the `senhasegura-mapping.json` file to the project's repository.
-3. In senhasegura, access your project's **CI/CD Variables** via **Grid Menu > DevOps Secret Manager > Settings > Secrets > Actions**.
+3. In senhasegura, access your project's **CI/CD Variables** via **Grid Menu &gt; DevOps Secret Manager &gt; Settings &gt; Secrets &gt; Actions**.
 4. Register the variables needed to run the DSM using CLI, as described in the user guide.
 5. Edit your `.github/workflows/pipeline.yml` file in your project folder
 6. During the desired work of your pipeline, add the code to run the DSM and confirm the change to the file.
@@ -46,9 +46,9 @@ jobs:
 
       - name: Run DSM CLI as Running Belt
         env:
-          APPLICATION: ${{ secrets.APPLICATION }}
-          SYSTEM: ${{ secrets.SYSTEM }}
-          ENVIRONMENT: ${{ secrets.ENVIRONMENT }}
+          APPLICATION: $
+          SYSTEM: $
+          ENVIRONMENT: $
         run: |
           dsm runb \
             --app-name $APPLICATION \
@@ -56,7 +56,7 @@ jobs:
             --environment $ENVIRONMENT \
             --config .config.yml \
             --tool-name github \
-          source .runb.vars && rm .runb.vars
+          source .runb.vars &amp;&amp; rm .runb.vars
 
 ```
 
@@ -70,7 +70,7 @@ After configuring the DSM CLI in the project, go to the Actions menu on GitHub t
 
 1. Select the workflow and the **Run workflow** option.
 2. Choose the branch to run the workflow and click on **Run workflow.**
-3. Finally, click on **Workflow > Job** to display the result of the run.
+3. Finally, click on **Workflow &gt; Job** to display the result of the run.
 
 Example of an output from the GitHub Actions workflow:
 

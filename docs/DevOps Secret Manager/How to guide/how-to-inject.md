@@ -18,7 +18,7 @@ You can analyze the injection details by clicking on Secrets and then clicking o
 
 In the Action tab, select the Google Secret Manager - Inject Secret template to inject and rotate secrets. After the template execution, access the Google Cloud Console and select the project in the upper selection tab.
 
-You can analyze the details of the injection by selecting on Google Secret Manager, Security > Secret Management, and, in this secrets list, click on the item created by senhasegura.
+You can analyze the details of the injection by selecting on Google Secret Manager, Security &gt; Secret Management, and, in this secrets list, click on the item created by senhasegura.
 
 Caution
 

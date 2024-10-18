@@ -44,7 +44,7 @@ Once the plugin is installed, follow the instructions below:
 
 ## Inject secrets using Jenkins
 
-After setting up the integration in the project, go to the **Build Now** menu to run the pipeline and use the secrets. When the job is finished, click **Job ID > Console** to display the execution result.
+After setting up the integration in the project, go to the **Build Now** menu to run the pipeline and use the secrets. When the job is finished, click **Job ID &gt; Console** to display the execution result.
 
 The execution result will look like the one below:
 

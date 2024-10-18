@@ -1,6 +1,6 @@
 # Reference for environments
 
-You can access the Environments windows through **Grid Menu > Settings > System parameters > Segmentation > Environments**.
+You can access the Environments windows through **Grid Menu &gt; Settings &gt; System parameters &gt; Segmentation &gt; Environments**.
 
 ## Top bar
 

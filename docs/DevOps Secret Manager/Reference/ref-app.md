@@ -1,7 +1,7 @@
 
 # Application
 
-The Application dashboard is accessible through **Grid Menu > DevOps Secret Manager > Dashboard > Application.**
+The Application dashboard is accessible through **Grid Menu &gt; DevOps Secret Manager &gt; Dashboard &gt; Application.**
 
 :::tip Info
 The dashboard displays data relating to the selected application. To choose the application you want, click on the drop-down menu at the top of the page and select the option corresponding to the application's name registered in the DSM. It is also possible to filter by the date and creation of the entity. To do this, click on the drop-down menu next to the calendar icon and set the desired period for filtering the information.

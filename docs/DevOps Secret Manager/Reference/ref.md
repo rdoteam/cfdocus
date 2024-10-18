@@ -1,6 +1,6 @@
 # Secrets - Reference
 
-You can access the secrets list report through **Grid Menu > DevOps Secret Manager > Secrets Management > Secrets**.
+You can access the secrets list report through **Grid Menu &gt; DevOps Secret Manager &gt; Secrets Management &gt; Secrets**.
 
 CAUTION
 

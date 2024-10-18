@@ -1,5 +1,5 @@
-// docusaurus.config.js
 const path = require('path');
+
 module.exports = {
   title: 'Bem vindo ao senhasegura Help Center',
   tagline: 'Documentação oficial das soluções senhasegura.',
@@ -59,8 +59,9 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'), // Certifique-se de que o caminho está correto
-          editUrl: 'https://github.com/senhasegura/senhaseguradocs/edit/main/website/',
+          sidebarPath: require.resolve('./sidebars.js'), // Integra o arquivo sidebars.js
+          editUrl:
+            'https://github.com/senhasegura/senhaseguradocs/edit/main/website/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           versions: {
@@ -75,7 +76,6 @@ module.exports = {
         },
       },
     ],
-    // Mova o redocusaurus para a seção de presets
     [
       'redocusaurus',
       {
@@ -96,8 +96,26 @@ module.exports = {
     [
       '@docusaurus/plugin-google-analytics',
       {
-        trackingID: 'UA-XXXXXXX-X',
+        trackingID: 'UA-XXXXXXX-X', // Altere para o seu tracking ID
       },
     ],
+    // Plugin de configuração do Webpack
+    function webpackConfigPlugin() {
+      return {
+        name: 'custom-webpack-plugin',
+        configureWebpack() {
+          return {
+            // Desativa o cache do Webpack
+            cache: false,
+            // Filtro para suprimir avisos relacionados ao VFileMessage
+            stats: {
+              warningsFilter: [
+                /No serializer registered for VFileMessage/,
+              ],
+            },
+          };
+        },
+      };
+    },
   ],
 };

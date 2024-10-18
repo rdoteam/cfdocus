@@ -1,6 +1,6 @@
 # CI/CD Deploys
 
-Access the **CI/CD Deploys** report through **Grid Menu > DevOps Secret Manager > CI/CD > Deploys**. The deploys registered in senhasegura will be listed on the main screen.
+Access the **CI/CD Deploys** report through **Grid Menu &gt; DevOps Secret Manager &gt; CI/CD &gt; Deploys**. The deploys registered in senhasegura will be listed on the main screen.
 
 ## Top bar
 

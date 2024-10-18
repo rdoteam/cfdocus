@@ -66,7 +66,7 @@ Ensure you have selected the OAuth 2.0 authentication method in the senhasegura 
 
 After configuring the DSM CLI in the project, follow the instructions below:
 
-1. Access Pipelines > Pipelines to run the pipeline.
+1. Access Pipelines &gt; Pipelines to run the pipeline.
 2. Select the pipeline you want and click **Run Pipeline**.
 3. In the next step, click **Run**.
 4. Then click on the job name to view the details and results of the execution.

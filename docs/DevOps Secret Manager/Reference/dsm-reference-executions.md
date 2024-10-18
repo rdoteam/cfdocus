@@ -1,6 +1,6 @@
 # Executions
 
-The executions within the senhasegura **DevOps Secret Manager** are accessible through the **Grid Menu > DevOps Secret Manager > Automations > Executions path**.
+The executions within the senhasegura **DevOps Secret Manager** are accessible through the **Grid Menu &gt; DevOps Secret Manager &gt; Automations &gt; Executions path**.
 
 On the screen, you'll find the following information:
 

@@ -1,6 +1,6 @@
 # Dynamic provisioning profiles
 
-You can access a list of all available profiles via the **Grid Menu > PAM Core > Dynamic Provisioning > Profiles.** On the screen, you will find the following information:
+You can access a list of all available profiles via the **Grid Menu &gt; PAM Core &gt; Dynamic Provisioning &gt; Profiles.** On the screen, you will find the following information:
 
 ## Top bar
 

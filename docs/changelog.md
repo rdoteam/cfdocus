@@ -99,7 +99,7 @@ Check below the new features, improvements, and errors fixed in this version of 
 ### Bug Fixes
 | Item | Description |
 |------|-------------|
-| 1918 | Fixed the issue that was causing the character & to be changed into its entity code &amp in the Tags field in the SSH key report and when editing an SSH key. |
+| 1918 | Fixed the issue that was causing the character &amp; to be changed into its entity code &amp; in the Tags field in the SSH key report and when editing an SSH key. |
 
 ### Product Updates
 | Item | Description |
@@ -191,7 +191,7 @@ No changes.
 | 1799 | Added the Tags and Notes parameters when retrieving, creating, and updating API secrets via API. |
 | 1888 | Added the Username search filter on the Password details screen. |
 | 1675 | Added the batch action buttons Enable, Disable and Share on the API secrets screen. |
-| 1504 | Renamed the API keys menu to Access keys, accessible through MySafe > Integrations > Access keys. |
+| 1504 | Renamed the API keys menu to Access keys, accessible through MySafe &gt; Integrations &gt; Access keys. |
 | 1514 | Added the ID field in the Passwords, API secrets, Files, Notes, and Audit reports so that users can consult it when using the MySafe APIs. |
 | 761 | Renamed the Delete button to Disable on the MySafe home screen for password deactivation. |
 
@@ -225,8 +225,8 @@ No changes.
 | Item | Description |
 |------|-------------|
 | 2193 | The GeoIP base of Domum is now updated daily. |
-| 926 | Removed "Start date" and "Due date" fields from Domum > Dashboard > Internal user groups as this entity does not have these attributes. |
-| 1336 | Updated dashboards located in "Domum > Dashboards > Vendors / Third-party users / Internal users groups / Internal users". The term "Access" in the line chart has been replaced with "Sessions". |
+| 926 | Removed "Start date" and "Due date" fields from Domum &gt; Dashboard &gt; Internal user groups as this entity does not have these attributes. |
+| 1336 | Updated dashboards located in "Domum &gt; Dashboards &gt; Vendors / Third-party users / Internal users groups / Internal users". The term "Access" in the line chart has been replaced with "Sessions". |
 | 1759 | The custom attribute thirdPartyVendor has been removed from the group provisioning XML via SCIM. This change is due to new authentication improvements, which have made this attribute unnecessary. When registering a new provider, users should now utilize the field labeled "Add users to Domum?". |
 
 ## Certificate Manager

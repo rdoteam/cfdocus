@@ -7,7 +7,7 @@ To use senhasegura's **DevOps Secret Manager (DSM)** features, you must authoriz
 To create an authorization per application, follow the steps below:
 
 1. On senhasegura, in the top left corner, click **Grid Menu**, represented by the nine squares, and select **DevOps Secret Manager**.
-2. In the side menu, select **Applications > Authorization by application**.
+2. In the side menu, select **Applications &gt; Authorization by application**.
 3. The main screen will list all the applications registered in the senhasegura.
 4. To create a new authorization by application, identify the application you want to authorize and, in the **Action** column, click on the plus icon.
 
@@ -39,7 +39,7 @@ In the **Application Authorization** window, fill in the following steps:
 
 ## How to change an authorization per application in DevOps Secret Manager
 
-To change an authorization per application in the DSM, access the list of applications through **Grid Menu > DevOps Secret Manager > Applications > Authorization per application.**
+To change an authorization per application in the DSM, access the list of applications through **Grid Menu &gt; DevOps Secret Manager &gt; Applications &gt; Authorization per application.**
 
 In the list, identify the application and the authorization you want to change. To do this, follow the steps below:
 
@@ -53,7 +53,7 @@ To download the authorization's private key, click the three vertical dots icon 
 
 ## How to view an authorization
 
-To view an authorization by application in the DSM, access the list of applications through **Grid Menu > DevOps Secret Manager > Applications > Authorization by application.**
+To view an authorization by application in the DSM, access the list of applications through **Grid Menu &gt; DevOps Secret Manager &gt; Applications &gt; Authorization by application.**
 
 In the list, identify the application and authorization you want to view. To do this, follow the steps below:
 

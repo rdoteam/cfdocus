@@ -1,6 +1,6 @@
 # Secrets management dashboard
 
-The Secrets Management dashboard is accessible through **Grid Menu > DevOps Secret Manager > Dashboard > Secrets Management.**
+The Secrets Management dashboard is accessible through **Grid Menu &gt; DevOps Secret Manager &gt; Dashboard &gt; Secrets Management.**
 
 :::tip Info
 The dashboard can display data relating to active or inactive secrets. To choose which to display, click on the drop-down menu at the top of the page and select the option corresponding to the status of the secret in the DSM. You can choose Yes, No, and Active (where Yes displays active applications, No displays inactive applications, and Active displays all applications). In addition, you can filter by time interval from the entity's creation date. To do this, click on the drop-down menu next to the calendar icon and set the desired period for filtering the information.

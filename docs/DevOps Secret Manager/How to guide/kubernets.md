@@ -32,7 +32,7 @@ By following these steps, the integration between DSM and Kubernetes via Externa
 | `kubectl get pods -A`                                                 | Check the Pod creation.                                                                 |
 | `kubectl get secrets/example-secret -n namespace -o yaml`             | Check the External Secrets contents.                                                    |
 | `kubectl get secrets/example-secret -o yaml`                          | Check if the synchronized secret has been created and that the data has been retrieved. |
-| `kubectl logs -f pod/external-secrets-<CHANGEME> -n external-secrets` | Check the External Secrets logs.                                                        |
+| `kubectl logs -f pod/external-secrets- -n external-secrets` | Check the External Secrets logs.                                                        |
 
 ---
 

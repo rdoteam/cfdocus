@@ -2,7 +2,7 @@
 title: Automations
 ---
 
-The automations within the senhasegura DevOps Secret Manager are accessible through the **Grid Menu > DevOps Secret Manager > Automations > Automations path.**
+The automations within the senhasegura DevOps Secret Manager are accessible through the **Grid Menu &gt; DevOps Secret Manager &gt; Automations &gt; Automations path.**
 
 On the screen, you'll find the following information:
 

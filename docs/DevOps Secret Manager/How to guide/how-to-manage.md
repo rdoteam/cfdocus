@@ -5,7 +5,7 @@
 To register a secret, follow the steps below:
 
 1. On senhasegura, in the upper left corner, click Grid Menu, represented by the nine squares, and select DevOps Secret Manager.
-2. In the side menu, select Secret Management > Secrets.
+2. In the side menu, select Secret Management &gt; Secrets.
 3. In the top bar, click the Show actions button, represented by the three vertical dots, and select +New secret from the drop-down menu.
 
 In the Secret Configuration window, fill in the details of your secret according to the instructions below:
@@ -72,7 +72,7 @@ When you're ready, click Save.
 ## View a secret
 
 1. On senhasegura, in the upper left corner, click Grid Menu, represented by the nine squares, and select DevOps Secret Manager.
-2. In the side menu, select Secret Management > Secrets.
+2. In the side menu, select Secret Management &gt; Secrets.
 3. In the list, identify the secret you want to view and, in the Action column, click on the icon represented by the three vertical dots and select Details from the drop-down menu.
 
 On the Secret window, you can view all the information about the secret.
@@ -80,7 +80,7 @@ On the Secret window, you can view all the information about the secret.
 ## View the versions of a secret
 
 1. On senhasegura, in the upper left corner, click Grid Menu, represented by the nine squares, and select DevOps Secret Manager.
-2. In the side menu, select Secret Management > Secrets.
+2. In the side menu, select Secret Management &gt; Secrets.
 3. In the list, identify the secret you want to view and, in the Action column, click on the icon represented by the three vertical dots and select Show versions from the drop-down menu.
 
 In the Secret history window, you can view the information and versions of the secret using the following fields:
@@ -98,7 +98,7 @@ In the Secret history window, you can view the information and versions of the s
 ## Update a secret
 
 1. On senhasegura, in the upper left corner, click Grid Menu, represented by the nine squares, and select DevOps Secret Manager.
-2. In the side menu, select Secret Management > Secrets.
+2. In the side menu, select Secret Management &gt; Secrets.
 3. In the list, identify the secret you want to view and, in the Action column, select Update, represented by the pencil and paper icon.
 4. In the Secret Configuration window, change the information you need to change and click Save.
 
@@ -108,7 +108,7 @@ The form for editing secrets is the same as for registering secrets.
 ## Compare two versions of a secret
 
 1. On senhasegura, in the upper left corner, click Grid Menu, represented by the nine squares, and select DevOps Secret Manager.
-2. In the side menu, select Secret Management > Secrets.
+2. In the side menu, select Secret Management &gt; Secrets.
 3. In the list, identify the secret you want to view and, in the Action column, click on the icon represented by the three vertical dots and select Show versions from the drop-down menu.
 4. In the Secret history window, click on Compare, represented by the two arrows in opposite directions icon to open the version comparison window.
 
@@ -124,14 +124,14 @@ The changes will be shown according to the fields that have been altered. The di
 ## Change a secret's access keys
 
 1. On senhasegura, in the upper left corner, click Grid Menu, represented by the nine squares, and select DevOps Secret Manager.
-2. In the side menu, select Secret Management > Secrets.
+2. In the side menu, select Secret Management &gt; Secrets.
 3. In the list, identify the secret you want to view and, in the Action column, click on the icon represented by the three vertical dots and select Rotate access keys from the drop-down menu.
 
 A pop-up window will indicate that rotating the access keys for that secret is underway. The process is done automatically.
 
 ## View a secret's error history
 
-You can view the error history of a secret by going to Grid Menu > DevOps Secret Manager > Secret Management > Secrets.
+You can view the error history of a secret by going to Grid Menu &gt; DevOps Secret Manager &gt; Secret Management &gt; Secrets.
 
 To view the error history, select a secret from the list and, in the Action column, click on the icon represented by the three vertical dots and select the View error history option.
 

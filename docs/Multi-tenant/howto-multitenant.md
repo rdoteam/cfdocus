@@ -39,7 +39,7 @@ The default tenant, created when you first instantiate senhasegura, will always 
 The `orbit` command must always be run with administrator privileges, so it will always be run as root using `sudo`.  
 :::
 
-To create a new tenant, type the command `sudo orbit tenant create <tenant name>.`
+To create a new tenant, type the command `sudo orbit tenant create .`
 
 The orbit tenant command accepts flags that modify its default behavior. To find out which flags are accepted, you can type `sudo orbit tenant --help` in the terminal. 
 
@@ -80,7 +80,7 @@ The tenant's name will be the subdomain used to access it. For example, if you h
 
 ## Disable a tenant
 
-If necessary, you can disable a previously created tenant. To do this, type `sudo orbit tenant disable <tenant> name`. This will disable the tenant you created.
+If necessary, you can disable a previously created tenant. To do this, type `sudo orbit tenant disable  name`. This will disable the tenant you created.
 
 - For example: `sudo orbit tenant disable test` will disable the previously created tenant with the name `test`.
 
@@ -90,7 +90,7 @@ This operation keeps all the tenant's data, making it possible to undo it by re-
 
 ## Enable a tenant
 
-If you have disabled one of your tenants and want to re-enable it, type the command `sudo orbit tenant enable <tenant name>`. This will enable the tenant.
+If you have disabled one of your tenants and want to re-enable it, type the command `sudo orbit tenant enable `. This will enable the tenant.
 
 - For example: `sudo orbit tenant enable test` will enable the previously created tenant with the name `test`.
 
@@ -113,7 +113,7 @@ Type `y` at the terminal prompt to proceed with the synchronization process. To 
 
 ## Configure a tenant
 
-If necessary, you can set up a tenant. To do this, type `sudo orbit tenant configure <tenant name>`.
+If necessary, you can set up a tenant. To do this, type `sudo orbit tenant configure `.
 
 - For example: `sudo sudo orbit tenant configure test`.
 
@@ -188,7 +188,7 @@ However, the backup directories have changed. Because of the multi-tenant enviro
 
 ### Orbit Config Manager
 
-The Orbit settings option, accessed through **Grid Menu \> Orbit Config Manager** path, will only be available in the senhasegura default tenant. In the other tenants, this option won't be available. It is also not possible to add permission to view this option.
+The Orbit settings option, accessed through **Grid Menu \&gt; Orbit Config Manager** path, will only be available in the senhasegura default tenant. In the other tenants, this option won't be available. It is also not possible to add permission to view this option.
 
 ---
 Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).

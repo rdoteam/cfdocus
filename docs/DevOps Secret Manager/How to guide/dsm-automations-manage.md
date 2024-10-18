@@ -14,7 +14,7 @@ Within senhasegura **DevOps Secret Manager (DSM)**, you can register automations
 To create an automation, follow these steps:
 
 1. In senhasegura, in the top left corner, click the **Grid Menu**, represented by the nine squares, and select **DevOps Secret Manager.**
-2. In the side menu, select **Automations > Automations**.
+2. In the side menu, select **Automations &gt; Automations**.
 3. In the top bar, click on View actions, represented by the three vertical dots, and select **+ New** from the drop-down menu.
 
 ### Automation window
@@ -75,7 +75,7 @@ At the end, click **Save** to finish registering the automation.
 To update automation, follow these steps:
 
 1. In senhasegura, in the top left corner, click the **Grid Menu**, represented by the nine squares, and select D**evOps Secret Manager**.
-2. In the side menu, select **Automations > Automations**.
+2. In the side menu, select **Automations &gt; Automations**.
 3. In the list that appears on the main page, select the automation you want to update and, in the **Action** column, click the icon represented by the three vertical dots to open a drop-down menu.
 4. From the drop-down menu, select **Update**.
 5. The **Automation** window will open in edit mode, containing the same fields as the registration step.
@@ -90,7 +90,7 @@ You can find an eye icon in the bottom right corner of the Automation window. Yo
 In the **Automation** window, when opened in detail view, you can analyze various information about the automation. To do this, follow the steps below:
 
 1. In senhasegura, in the top left corner, click the **Grid Menu**, represented by the nine squares, and select **DevOps Secret Manager**.
-2. In the side menu, select **Automations > Automations**.
+2. In the side menu, select **Automations &gt; Automations**.
 3. In the list on the main page, select the automation you want to view the details of and, in the **Action** column, click on **Details**, represented by the magnifying glass icon.
 4. In the **Automation** window, you'll have the following fields:
    1. **ID**: contains the code of the automation.
@@ -112,7 +112,7 @@ In the **Automation** window, when opened in detail view, you can analyze variou
 To delete an automation, follow the steps below:
 
 1. In senhasegura, in the top left corner, click the **Grid Menu**, represented by the nine squares, and select **DevOps Secret Manager.**
-2. In the side menu, select **Automations > Automations**.
+2. In the side menu, select **Automations &gt; Automations**.
 3. In the list on the main page, identify the automation you want to delete and, in the **Action** column, click the icon represented by the three dots and, in the drop-down menu, select **Delete**.
 4. A window will display a message that the deletion of that automation was successful.
 
@@ -125,7 +125,7 @@ Deleting an automation has no intermediate steps, so when you click Delete, the 
 To activate automation, which for whatever reason has a status of **No** in the **Active** field, follow these steps:
 
 1. In senhasegura, in the top left corner, click the **Grid Menu**, represented by the nine squares, and select **DevOps Secret Manager.**
-2. In the side menu, select **Automations > Automations**.
+2. In the side menu, select **Automations &gt; Automations**.
 3. On the list page, in the top bar, select the **No** option from the **Active** drop-down menu and click **Filter**.
 4. In the list, identify the automation you want to activate, click, in the **Action** column, the icon represented by the three vertical dots, and select **Update** from the drop-down menu.
 5. The **Automation** window will open in edit mode.

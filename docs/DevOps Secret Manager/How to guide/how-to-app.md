@@ -9,7 +9,7 @@
 To register a new application, follow the steps below:
 
 1. On senhasegura, in the top left corner, click the **Grid Menu**, represented by the nine squares, and select **DevOps Secret Manager**.
-2. In the side menu, select **Applications > Applications**.
+2. In the side menu, select **Applications &gt; Applications**.
 3. The main screen will list all the applications registered on senhasegura. To register a new application, click **View actions**, represented by the three vertical dots, and select **+ New** from the drop-down menu.
 
 In **Application Configuration** window, fill in the following steps:
@@ -32,7 +32,7 @@ AWS ARN refers to the unique identifiers of AWS resources.
 
 ## Change an application registered in DevOps Secret Manager
 
-To change an application already registered in the DSM, access the list of applications through **Grid Menu > DevOps Secret Manager > Applications > Applications.**
+To change an application already registered in the DSM, access the list of applications through **Grid Menu &gt; DevOps Secret Manager &gt; Applications &gt; Applications.**
 
 In the list, identify the application you want to change. To do this, follow the steps below:
 
@@ -42,7 +42,7 @@ In the list, identify the application you want to change. To do this, follow the
 
 ## View an application registered in DevOps secret Manager
 
-To view an application already registered in the DSM, access the list of applications through **Grid Menu > DevOps Secret Manager > Applications > Applications**.
+To view an application already registered in the DSM, access the list of applications through **Grid Menu &gt; DevOps Secret Manager &gt; Applications &gt; Applications**.
 
 In the list, identify the application you want to view. To do this, follow the steps below:
 
@@ -60,7 +60,7 @@ In this window, you can view the information about the application:
 
 ## View an authorization by application
 
-To view the authorizations of an application already registered in the DSM, access the list of applications through **Grid Menu > DevOps Secret Manager > Applications > Applications.**
+To view the authorizations of an application already registered in the DSM, access the list of applications through **Grid Menu &gt; DevOps Secret Manager &gt; Applications &gt; Applications.**
 
 In the list, identify the application you want to view. To do this, follow the steps below:
 

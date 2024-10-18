@@ -1,6 +1,6 @@
 # Reference for systems
 
-The report Systems window can be accessed on **Grid Menu > Settings > System parameters > Segmentation > Systems.**
+The report Systems window can be accessed on **Grid Menu &gt; Settings &gt; System parameters &gt; Segmentation &gt; Systems.**
 
 ## Top bar
 

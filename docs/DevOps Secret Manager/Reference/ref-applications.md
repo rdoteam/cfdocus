@@ -4,7 +4,7 @@ title: Applications
 
 # Applications
 
-Access the secrets list report through the **Grid Menu > DevOps Secret Manager > Applications > Applications**.
+Access the secrets list report through the **Grid Menu &gt; DevOps Secret Manager &gt; Applications &gt; Applications**.
 
 On the **Applications** screen, you will find the following information:
 

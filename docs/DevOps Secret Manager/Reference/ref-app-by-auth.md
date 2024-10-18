@@ -4,7 +4,7 @@ title: Authorization by application
 
 # Authorization by application
 
-You can access the secrets list report through **Grid Menu > DevOps Secret Manager > Applications > Authorization by application.**
+You can access the secrets list report through **Grid Menu &gt; DevOps Secret Manager &gt; Applications &gt; Authorization by application.**
 
 On the screen, you'll find the following information.
 
@@ -27,8 +27,8 @@ When you click on **Show filters**, a series of fields are displayed. These are 
 | **Application**   | Application name.                                                                                                                                       |
 | **Code.authorization** | Authorization code.                                                                                                                                     |
 | **Name**               | Authorization name.                                                                                                                                     |
-| **System**             | This field is used for segmentation within senhasegura DSM. Register systems viaGrid Menu > Settings > System parameters > Segmentation > Systems.      |
-| **Environment**        | This field is used for segmentation within senhasegura DSM. Register environments viaGrid Menu > Settings > System parameters > Segmentation > Systems. |
+| **System**             | This field is used for segmentation within senhasegura DSM. Register systems viaGrid Menu &gt; Settings &gt; System parameters &gt; Segmentation &gt; Systems.      |
+| **Environment**        | This field is used for segmentation within senhasegura DSM. Register environments viaGrid Menu &gt; Settings &gt; System parameters &gt; Segmentation &gt; Systems. |
 | **Creation date**      | Opens a calendar for you to choose the creation date. This will indicate that all authorizations created from this date will be filtered out.           |
 | **until**              | Opens a calendar for you to choose an end date for the filter. This will indicate that all authorizations created up to this date will be filtered.     |
 | **Enabled**            | Indicates the status of the authorization. The available options are:YesorNo.                                                                           |

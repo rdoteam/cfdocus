@@ -1,6 +1,6 @@
 # Reference for credential filtering
 
-To access the credentials report, access **Grid Menu > PAM Core > Credentials > All.**
+To access the credentials report, access **Grid Menu &gt; PAM Core &gt; Credentials &gt; All.**
 
 ## Top bar
 

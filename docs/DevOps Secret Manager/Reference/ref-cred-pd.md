@@ -1,6 +1,6 @@
 # Credentials
 
-You can access the credential listing report through the **Grid Menu > PAM Core > Dynamic Provisioning > Credentials.**
+You can access the credential listing report through the **Grid Menu &gt; PAM Core &gt; Dynamic Provisioning &gt; Credentials.**
 
 ## Top bar
 

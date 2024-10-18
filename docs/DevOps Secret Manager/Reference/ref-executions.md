@@ -1,6 +1,6 @@
 # Executions
 
-You can access the report listing executions through **Grid Menu > PAM Core > Dynamic Provisioning > Executions.**
+You can access the report listing executions through **Grid Menu &gt; PAM Core &gt; Dynamic Provisioning &gt; Executions.**
 
 ## Top bar
 
@@ -47,7 +47,7 @@ The results are displayed in a list as shown below:
 | Item                                                                   | Description                                                                                                                                                                                                         |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Debugging details for the last template run for provisioning** | Details of the last execution.                                                                                                                                                                                      |
-| **Information for creation template `<Template name>`**        | Information on the template used to create the execution. For more details, you can click on the**Operation Details** link. You can also click on the template name to obtain information about the template. |
-| **Information for deletion template `<Template name>`**        | Information about the template used to delete the execution. You can click on the template name to obtain information about the template.                                                                           |
+| **Information for creation template ``**        | Information on the template used to create the execution. For more details, you can click on the**Operation Details** link. You can also click on the template name to obtain information about the template. |
+| **Information for deletion template ``**        | Information about the template used to delete the execution. You can click on the template name to obtain information about the template.                                                                           |
 
 **

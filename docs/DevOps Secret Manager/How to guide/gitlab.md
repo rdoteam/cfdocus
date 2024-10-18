@@ -25,7 +25,7 @@ To integrate DSM with GitLab using CLI, follow these steps:
 
 1. Access a project from your GitLab account.
 2. Add the executable, the configuration file, and, optionally, the `senhasegura-mapping.json` file to the project's repository.
-3. On senhasegura, access your project's **CI/CD Variables** through **Grid Menu > Settings > Secrets > Actions**.
+3. On senhasegura, access your project's **CI/CD Variables** through **Grid Menu &gt; Settings &gt; Secrets &gt; Actions**.
 4. Register the variables needed to run the DSM CLI as described in the user guide.
 5. Edit your `.gitlab-ci.yml` file in your project folder;
 6. During the desired work in your pipeline, add the code to run the DSM CLI and confirm the change to the file.
@@ -59,10 +59,10 @@ Ensure you select OAuth 2.0 as the authentication method in senhasegura DSM, as 
 
 Após concluir a configuração da CLI no seu projeto, siga as instruções abaixo:
 
-1. Go to the **CI/CD > Pipelines** menu.
+1. Go to the **CI/CD &gt; Pipelines** menu.
 2. Click on **Run Pipeline**.
 3. In the next step, choose the desired branch and click **Run Pipeline** again.
-4. Then go to **Status > Job Name** to view the details and results of the execution.
+4. Then go to **Status &gt; Job Name** to view the details and results of the execution.
 
 The output of the execution will look like the one below:
 

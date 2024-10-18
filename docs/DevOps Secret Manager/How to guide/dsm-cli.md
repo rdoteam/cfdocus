@@ -29,11 +29,11 @@ The configuration file must be in `.yaml` format and contain the following detai
 Example of a `.config.yaml` file:
 
 ```
-SENHASEGURA_URL: "<senhasegura URL>"
-SENHASEGURA_CLIENT_ID: "<senhasegura Client ID>"
-SENHASEGURA_CLIENT_SECRET: "<senhasegura Client Secret>"
-SENHASEGURA_MAPPING_FILE: "<Secrets variable name mapping file with path>"
-SENHASEGURA_SECRETS_FILE: "<File name with path to inject Secret>"
+SENHASEGURA_URL: ""
+SENHASEGURA_CLIENT_ID: ""
+SENHASEGURA_CLIENT_SECRET: ""
+SENHASEGURA_MAPPING_FILE: ""
+SENHASEGURA_SECRETS_FILE: ""
 SENHASEGURA_DISABLE_RUNB: 0
 ```
 
@@ -45,10 +45,10 @@ To use the binary, you can run the following command line providing the necessar
 
 ```bash
 dsm runb \
-    --application <nome da aplicação> \
-    --system <nome do sistema> \
-    --environment <nome do ambiente> \
-    --config <caminho para o arquivo de configuração>
+    --application  \
+    --system  \
+    --environment  \
+    --config 
 ```
 
 After executing the binary with the essential information, all the environment variables available during the execution of the pipeline are collected and forwarded to the senhasegura DSM.

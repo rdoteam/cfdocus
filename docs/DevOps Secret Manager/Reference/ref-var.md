@@ -2,7 +2,7 @@
 title: CI/CD Variables
 ---
 
-Access the **CI/CD Variables** report through **Grid Menu > DevOps Secret Manager > CI/CD > Variables**. The variables registered in senhasegura will be listed on the main screen.
+Access the **CI/CD Variables** report through **Grid Menu &gt; DevOps Secret Manager &gt; CI/CD &gt; Variables**. The variables registered in senhasegura will be listed on the main screen.
 
 ## Top bar
 
