@@ -1,0 +1,3 @@
+# Control Panel 
+
+This feature allows the elevation of privilege for Windows Control Panel applications.GO Endpoint Manager Core - Control PanelExecute an application in the control panelAccess the user's desktop.Start Core.Click Control Panel.Select an item from the list.Right-click on it.Execute.CautionThis configuration option is available in the following versions:✖ Legacy             ✔3.27 and later

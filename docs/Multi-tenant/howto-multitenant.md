@@ -33,27 +33,27 @@ To manage the various tenants in your senhasegura instance, you can use the orbi
 
 ## Create a tenant
 
-The default tenant, created when you first instantiate senhasegura, will always be named `senhasegura`. This name cannot be changed.
+The default tenant, created when you first instantiate senhasegura, will always be named . This name cannot be changed.
 
 :::tip Info
-The `orbit` command must always be run with administrator privileges, so it will always be run as root using `sudo`.  
+The  command must always be run with administrator privileges, so it will always be run as root using .  
 :::
 
-To create a new tenant, type the command `sudo orbit tenant create .`
+To create a new tenant, type the command 
 
-The orbit tenant command accepts flags that modify its default behavior. To find out which flags are accepted, you can type `sudo orbit tenant --help` in the terminal. 
+The orbit tenant command accepts flags that modify its default behavior. To find out which flags are accepted, you can type  in the terminal. 
 
-- Note that you can pass more than one flag at the same time by separating them with a space. For example, `sudo orbit tenant create test --force`
+- Note that you can pass more than one flag at the same time by separating them with a space. For example, 
 
-Type `y` at the terminal prompt to proceed with the creation process. To cancel the process, type `N` or `n`, or press `ENTER`.
+Type  at the terminal prompt to proceed with the creation process. To cancel the process, type  or , or press .
 
 :::tip Info
-The tenant's name may only contain the following characters: `a-z`, `0-9`, `-` e `_`.
+The tenant's name may only contain the following characters: , ,  e .
 :::
 
 The output of the command to create the tenant will be as in the example below:
 
-```bash
+`bash
 Are you sure you want to create a new tenant: y
 Creating tenant storage
 Creating tenant database
@@ -61,84 +61,84 @@ Executing database migration process
 Changing database passwords
 Checking tenant key configuration
 Restarting Orbini services...
-```
+`
 
-Note that by using the `--force` flag, you won't be asked before creation, so the output of the command with the `--force` flag will look like this:
+Note that by using the  flag, you won't be asked before creation, so the output of the command with the  flag will look like this:
 
-```bash
+`bash
 Create tenant storage
 Create tenant database
 Executing database migration process
 Changing databse passwords
 Checking tenant key configuration
 Restarting Orbini services ...
-```
+`
 
 :::tip Info
-The tenant's name will be the subdomain used to access it. For example, if you have created the tenant test, access will be via `test.seudominio.com`.  
+The tenant's name will be the subdomain used to access it. For example, if you have created the tenant test, access will be via .  
 :::
 
 ## Disable a tenant
 
-If necessary, you can disable a previously created tenant. To do this, type `sudo orbit tenant disable  name`. This will disable the tenant you created.
+If necessary, you can disable a previously created tenant. To do this, type . This will disable the tenant you created.
 
-- For example: `sudo orbit tenant disable test` will disable the previously created tenant with the name `test`.
+- For example:  will disable the previously created tenant with the name .
 
-Type `y` at the terminal prompt to proceed with the disabling process. To cancel the process, type `N` or `n` or press `ENTER`. Note that when you use the `--force` flag, you won't be prompted, and the command will run without asking any questions.
+Type  at the terminal prompt to proceed with the disabling process. To cancel the process, type  or  or press . Note that when you use the  flag, you won't be prompted, and the command will run without asking any questions.
 
 This operation keeps all the tenant's data, making it possible to undo it by re-enabling the tenant using the enable command.
 
 ## Enable a tenant
 
-If you have disabled one of your tenants and want to re-enable it, type the command `sudo orbit tenant enable `. This will enable the tenant.
+If you have disabled one of your tenants and want to re-enable it, type the command . This will enable the tenant.
 
-- For example: `sudo orbit tenant enable test` will enable the previously created tenant with the name `test`.
+- For example:  will enable the previously created tenant with the name .
 
-Type `y` at the terminal prompt to proceed with the enabling process. To cancel the process, type `N` or `n` or press `ENTER`. Note that when you use the `--force` flag, you won't be prompted, and the command will run without asking any questions.
+Type  at the terminal prompt to proceed with the enabling process. To cancel the process, type  or  or press . Note that when you use the  flag, you won't be prompted, and the command will run without asking any questions.
 
 The output of the command to create the tenant will be as in the example below:
 
-```bash
+`bash
 Are you sure you want to proceed: y
 Executing database migration process
-```
+`
 
 ## Synchronize tenants
 
 If necessary, you can proceed to synchronize the tenants. This process aims to synchronize the tenants between the nodes in the cluster.
 
-To synchronize the tenants, type `sudo orbit tenant synchronize test.`
+To synchronize the tenants, type 
 
-Type `y` at the terminal prompt to proceed with the synchronization process. To cancel the process, type `N` or `n` or press `ENTER`. Note that when you use the `--force` flag, you won't be prompted, and the command will run without asking any questions.
+Type  at the terminal prompt to proceed with the synchronization process. To cancel the process, type  or  or press . Note that when you use the  flag, you won't be prompted, and the command will run without asking any questions.
 
 ## Configure a tenant
 
-If necessary, you can set up a tenant. To do this, type `sudo orbit tenant configure `.
+If necessary, you can set up a tenant. To do this, type .
 
-- For example: `sudo sudo orbit tenant configure test`.
+- For example: .
 
-Type `y` at the terminal prompt to proceed with the (re)configure process. To cancel the process, type `N` or `n` or press `ENTER`. Note that when you use the `--force` flag, you won't be prompted, and the command will run without asking any questions.
+Type  at the terminal prompt to proceed with the (re)configure process. To cancel the process, type  or  or press . Note that when you use the  flag, you won't be prompted, and the command will run without asking any questions.
 
 The output of the command to reconfigure a tenant will be as in the example below:
 
-```bash
+`bash
 Are you sure you want to reconfigure this tenant: y
 Creating tenant storage
 Executing database migration process
 Changing database passwords
 Checking tenant key configuration
 Restarting Orbini services...
-```
+`
 
 This command will redo the entire configuration in the same way as creating a tenant, making it useful when configuration problems occur when creating a tenant.
 
 ## List tenants
 
-If necessary, you can list the existing tenants in your senhasegura instance. To do this, type the command `sudo orbit tenant list`. The tenants will be listed sequentially, displaying each one's code, name, and current status.
+If necessary, you can list the existing tenants in your senhasegura instance. To do this, type the command . The tenants will be listed sequentially, displaying each one's code, name, and current status.
 
 The output of the tenant listing command will be as follows:
 
-```bash
+`bash
 +--------------------------------------+------------------+---------+
 |                 CODE                 |      TENANT      | STATUS  |
 +--------------------------------------+------------------+---------+
@@ -146,7 +146,7 @@ The output of the tenant listing command will be as follows:
 | 01905595-1ed8-7744-bcb9-afeb87009173 | tenant1          | ENABLED |
 | 019055a8-7a9d-769c-8371-8ea3913a4c31 | tenant2          | ENABLED |
 +--------------------------------------+------------------+---------+
-```
+`
 
 ## First access
 
@@ -157,7 +157,7 @@ When you first access the multi-tenant environment, a few steps will be required
 3. The first access must be made with the senhasegura default user.
 
 :::danger Caution
-**In the multi-tenant scenario, the default login user for the tenants created is `admin`.**
+
 :::
 
 ## Important information
@@ -166,11 +166,11 @@ When you first access the multi-tenant environment, a few steps will be required
 
 The file system for senhasegura with multi-tenant will follow the pattern
 
-```bash
+`bash
 /var/storage/senhasegura
 /var/storage/tenant1
 /var/storage/tenant2
-```
+`
 
 The name of the folder where the tenant's data will be stored is the same name given to the tenant when it was created.
 
@@ -180,15 +180,15 @@ The backup procedures are the same as for the main senhasegura instance. You can
 
 However, the backup directories have changed. Because of the multi-tenant environment, the backups will be stored in a sub-folder within each tenant's folder, so each tenant has its own backup folder, as shown in the example below.
 
-```bash
+`bash
 /var/storage/senhasegura/backup
 /var/storage/tenant1/backup
 /var/storage/tenant2/backup
-```
+`
 
 ### Orbit Config Manager
 
-The Orbit settings option, accessed through **Grid Menu \&gt; Orbit Config Manager** path, will only be available in the senhasegura default tenant. In the other tenants, this option won't be available. It is also not possible to add permission to view this option.
+The Orbit settings option, accessed through  path, will only be available in the senhasegura default tenant. In the other tenants, this option won't be available. It is also not possible to add permission to view this option.
 
 ---
-Do you still have questions? Reach out to the [senhasegura Community](https://community.senhasegura.io/).
+Do you still have questions? Reach out to the .

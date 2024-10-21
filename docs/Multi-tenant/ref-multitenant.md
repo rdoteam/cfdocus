@@ -6,17 +6,17 @@ This document will describe the parameters that can be used in combination with 
 
 | Parameter                   | Description                                                                                                       |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `create `      | Create a new tenant with the name indicated.                                                                      |
-| `disable `     | Disables the indicated tenant.                                                                                    |
-| `enable `      | Enables the indicated tenant.                                                                                     |
-| `list`                      | Lists all the tenants of the instance in question.                                                                |
-| `configure `   | Configure the indicated tenant.                                                                                   |
-| `synchronize ` | This command will reconfigure the indicated tenant and sync its configuration with all the nodes in the instance. |
+|       | Create a new tenant with the name indicated.                                                                      |
+|      | Disables the indicated tenant.                                                                                    |
+|       | Enables the indicated tenant.                                                                                     |
+|                       | Lists all the tenants of the instance in question.                                                                |
+|    | Configure the indicated tenant.                                                                                   |
+|  | This command will reconfigure the indicated tenant and sync its configuration with all the nodes in the instance. |
 ## Flags
 
-The parameters can also contain `flags`, which will help to execute the orbit tenant command as required.
+The parameters can also contain , which will help to execute the orbit tenant command as required.
 
 | Flag            | Description                                               | Parameter that accepts the flag                 |
 | --------------- | --------------------------------------------------------- | ----------------------------------------------- |
-| `-h` e `--help` | Prints the parameter help on the screen.                  | All.                                            |
-| `--force`       | Forces the command to be executed. Don’t prompt the user. | create, disable, enable, configure, synchronize |
+|  e  | Prints the parameter help on the screen.                  | All.                                            |
+|        | Forces the command to be executed. Don’t prompt the user. | create, disable, enable, configure, synchronize |

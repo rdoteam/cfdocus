@@ -1,0 +1,3 @@
+# Dashboard 
+
+OverviewThis dashboard displays an overview of personal credentials stored in the senhasegura.CautionEven without having their credentials, the user can know how many personal credentials have already been stored in the system and how many users have credentials without knowing who they are and what their credentials are.To access the personal credentials dashboard, go to Information ➔ Personal credentials ➔ Dashboard.Personal Credentials Dashboard
